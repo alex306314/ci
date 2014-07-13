@@ -1,0 +1,370 @@
+@charset "utf-8";
+/* CSS Document */
+#header{ width:100%;}
+#warp{ width:960px; margin:0 auto; padding:0; overflow:hidden; zoom:1;}
+.line{ overflow:hidden; float:left; width:100%; height:1px; border-top:1px solid #ededed;}
+.linetwo{ overflow:hidden; float:left; width:100%; margin:0 auto; height:1px; border-top:1px solid #ededed; background:none;}
+.linethree{ overflow:hidden; float:left; width:100%; margin-bottom:10px;height:1px; border-top:1px solid #ededed;}
+.linefor{ overflow:hidden; float:left; width:100%; margin:0 0 5px auto; height:1px; border-top:1px solid #ededed;}
+/*top*/
+.top{ width:960px; height:75px; margin:0 auto;}
+.logo_img{ float:left; width:225px; height:75px; border:none;}
+.action{ float:left; overflow:hidden; width:450px; height:60px; margin:10px 10px 0 10px;}
+.login{ float:left; overflow:hidden; width:265px; margin-top:15px;}
+.login li{ display:inline; color:#eeeeee;}
+.login li a{ display:inline; line-height:24px;color:#eeeeee; padding:0 3px;}
+.login li a:hover{color:#eeeeee;}
+.login li .nava{padding:10px 18px 10px 10px; background:url(http://imgs.ebrun.com/images/a_icon.jpg) no-repeat 63px center;}
+.login li .navafun{padding:10px 18px 10px 10px; background:url(http://imgs.ebrun.com/images/ahie_icon.jpg) no-repeat 63px center #0f4784;}
+.login .select{ overflow:hidden; width:270px; height:20px; margin-top:10px;}
+.login .select .text{ overflow:hidden; float:left; width:215px; height:20px; line-height:20px; padding:0 10px; border:none; background-color:#FFF; font:12px; color:#9f9f9f;}
+.login .select .button{ float:left; width:30px; height:20px; border:none; background:url(http://imgs.ebrun.com/images/select_bj.jpg) no-repeat center; cursor:pointer;}
+.login .nav_ul{ display:block; float:right; overflow:hidden; width:265px; height:21px; margin:5px 0; padding-bottom:3px; }
+.login .nav_ul li{ display:block; float:left; height:24px; line-height:24px;}
+.login .nav_ul li a{ font:12px/24px "宋体"; color:#FFF;}
+.login .nav_ul .login_name{ overflow:hidden; width:189px; text-align:right;}
+/*网站导航*/
+.showmore{position:absolute; float:left; z-index:9999; width:180px; background-color:#0f4784; text-align:left; padding:0 10px; margin-left:-124px;}
+.showmore dt{ display:block; float:left; width:100%;padding-top:10px;}
+.showmore dd{ float:left; width:100%;border-bottom:1px solid #083668; padding:5px 0;}
+.showmore dd a{ display:inline; margin-right:10px; }
+.showmore dd a:hover{ color:#FFF;}
+/*menu*/
+.menu{ width:100%; height:30px; background:url(http://imgs.ebrun.com/images/menu_bj.jpg) repeat-x left bottom #04182e;}
+.menu .nav_ul{ overflow:hidden; width:960px; margin:0 auto;}
+.menu .nav_ul li{ height:100%; display:block; float:left;  margin-right:2px; width:85px; }
+.menu .nav_ul .current{background-color:#0a315a; border:1px solid #0f4784; border-bottom:none;}
+.menu .nav_ul .latterli{ width:250px; padding-left:80px;}
+.menu .nav_ul .latterli span{ float:left; color:#FFF; font-size:18px; line-height:30px;}
+.menu .nav_ul .latterli a{ display:block; float:left; color:#ffb006; padding-left:0; text-indent:5px; white-space:nowrap;}
+.menu .nav_ul li a{ display:block;height:30px;padding:0 25px; font:14px/30px "宋体"; color:#FFF}
+.menu .nav_ul li a:hover{ color:#FFF; text-decoration:none;}
+.menu .nav_ul li .hover{ background-color:#0f4784;}
+.click_menu{ padding:8px 0; background:url(http://imgs.ebrun.com/images/click_menubj.jpg) repeat-x left bottom #0a315a;}
+.click_menu .click_show{ width:960px; height:25px; margin:0 auto;}
+.click_menu .click_show li{ display:block; float:left; margin-right:17px;}
+.click_menu .click_show li a{ font:12px/24px "宋体"; color:#ededed}
+.click_menu .click_show li a:hover{ color:#ededed;text-decoration:underline; }
+.over_ul{ position:absolute; width:130px; z-index:19999; background-color:#0f4784; padding:10px 0;}
+.menu .nav_ul li .over_ul li{ display:block; float:left; overflow:hidden;height:20px; width:110px;border-left:1px solid #083668;}
+.menu .nav_ul li .over_ul li a{ display:block; width:110px; font:12px/20px "宋体"; line-height:20px; color:#FFF;  padding:0 0 0 14px;}
+.menu .nav_ul li .over_ul li a:hover{ color:#FFF;text-decoration:underline;}
+.ovwith{position:absolute; width:190px; z-index:9999; background-color:#0f4784; padding:10px 0;}
+.menu .nav_ul li .ovwith li{ display:block; float:left; overflow:hidden;height:20px; width:80px;border-left:1px solid #083668;}
+.menu .nav_ul li .ovwith li a{ display:block; width:70px;font:12px/20px "宋体"; line-height:20px; color:#FFF; padding:0 0 0 14px;}
+.menu .nav_ul li .ovwith li a:hover{ color:#FFF;text-decoration:underline;}
+.list{ width:960px; margin:0 auto; height:25px;}
+.clickul{ margin-left:100px;}
+.case{ margin-left:200px;}
+.zhan{ margin-left:290px;}
+.comity{ margin-left:380px;}
+.game{ margin-left:540px;}
+.list ul{ display:block; height:20px;}
+.list ul li{display:block; float:left; margin-right:13px;}
+.list ul li a{  font:12px/18px "宋体"; color:#FFF;}
+.list ul li a:hover{ color:#FFF;}
+.list ul li .current_strong{ font-weight:bold;}
+/*页底*/
+#footer{ clear:both; float:left; width:100%;background-color:#3a3a3a; margin-top:35px;}
+.footer_cunt{ width:960px; height:250px; margin:0 auto; padding-top:25px;}
+.footer_cunt dl{ float:left;overflow:hidden; width:110px; margin-left:30px;}
+.footer_cunt dl dt{ height:20px;font:14px/20px "宋体"; color:#fefefe; padding-bottom:5px; border-bottom:1px solid #646464;}
+.footer_cunt dl dt a{ display:block; float:left;font:14px/20px "宋体"; color:#fefefe; }
+.footer_cunt dl dd{width:110px; padding-left:10px; margin-top:5px; background:url(http://imgs.ebrun.com/images/fnew_icon.jpg) no-repeat left center;}
+.footer_cunt dl dd a{font:12px/20px "宋体"; color:#9d9d9d;}
+.footer_cunt dl dd a:hover{ color:#9d9d9d;}
+.footer_cunt dl .topdd{ padding:0; background:none;}
+.footer_cunt dl .topdd a{ clear:both; float:left; width:96px; height:25px; padding-left:30px; font:14px/25px "宋体"; line-height:26px; color:#fefefe;  margin-top:15px; background:url(http://imgs.ebrun.com/images/top_but.jpg) no-repeat; border:none; cursor:pointer;}
+.footer_cunt dl .topdd a:hover{ text-decoration:none; color:#fefefe;}
+/*关于我们*/
+.footer_cunt .about_dl{ float:left; overflow:hidden; width:200px; margin:0 40px 0 0;}
+.footer_cunt .about_dl dd{ width:48%; float:left; margin-top:10px; padding:0; background:none;}
+.footer_cunt .about_dl dd img{ float:left; width:20px; height:20px; margin-right:5px;}
+.footer_cunt .about_dl dd a{ font:12px/20px "宋体"; color:#9d9d9d;}
+.footer_cunt .about_dl .about_select{ float:left; width:200px; height:27px; margin-top:15px;}
+.footer_cunt .about_dl .about_select .input_text{ float:left; width:135px; height:27px; background-color:#4d4d4d; border:none; font:12px/27px "宋体"; color:#FFF; padding-left:5px;}
+.footer_cunt .about_dl .about_select .input_but{ float:left; width:29px; height:27px; background:url(http://imgs.ebrun.com/images/about_sele.jpg) no-repeat;border:none; cursor:pointer;}
+.footer_cunt .about_dl .about_briefdd{ float:left; width:160px; margin-top:10px;font:12px/20px "宋体"; color:#9d9d9d;}
+.coptyright{ float:left; width:100%; padding:15px 0; background-color:#000; text-align:center; color:#646464;}
+/*++++++++++++++++++++++案例页+++++++++++++++++++*/
+.footer_link{width:948px; height:63px; padding:10px 0 10px 10px; border:1px solid #d5d5d5; margin:20px auto 40px auto;clear:both;}
+.footer_link dl{ float:left; overflow:hidden; width:235px; height:60px; border-right:1px solid #d5d5d5;}
+.footer_link dl dt{ float:left; width:63px; padding-top:15px; text-align:center;}
+.footer_link dl dd{ float:left; width:160px;}
+.footer_link dl dd a{ display:block;font:12px/18px "宋体"; color:#333; font-weight:bold; margin-bottom:5px;}
+.footer_link dl dd span{ display:block; width:158px;font:12px/18px "宋体"; color:#333;}
+
+/*分享*/
+.key{ float:left;position:relative;width:590px; height:auto;}
+.key dt{ float:left; width:590px; padding-top:15px;}
+.key dt .span{ display:block; clear:both; font:12px/18px "宋体"; color:#666; margin-bottom:5px; text-align:left;}
+.key dt .span a{ display:inline; margin-right:5px;font:12px/18px "宋体"; color:#666;}
+.key dt .span a:hover{ color:#0099cc; text-decoration:underline;}
+.key dd{ margin-left:10px;}
+/*评论*/
+.comment{ float:left; width:655px; margin:24px 0 20px 0;}
+.comment ul li{ display:block; float:left;}
+.comment ul .li_text{ float:left; width:545px; height:90px;}
+.comment ul .li_text a:hover{ color:#0099cc; text-decoration:underline;}
+.comment ul .li_text textarea{ width:530px; height:46px; padding:9px 7px; border:1px solid #b7cbd1; font:14px/26px "宋体"; color:#bbb;}
+.comment ul .li_text .textareac{ background-color:#f5f5f5; border:1px solid #cccccc;}
+.comment ul .li_text .span{ width:500px; margin:2px 0 0 0; font:12px/26px "宋体"; color:#666; text-align:left;}
+.comment ul .li_text .span a:hover{ color:#0099cc;}
+
+.comment ul li input{ float:left; width:70px; height:30px; margin:3px 0 0 20px;border:none; cursor:pointer;}
+.comment ul li .input_but{background:url(http://imgs.ebrun.com/images/but_bj.jpg) no-repeat left top;}
+.comment ul li .input_butover{background:url(http://imgs.ebrun.com/images/input_butover.jpg) no-repeat left top;}
+.comment ul li span{ clear:both; float:left; width:70px; margin:15px 0 0 20px; text-align:center; font:12px/16px "宋体"; color:#333;}
+/*编辑推荐*/
+.bj_record{float:left; overflow:hidden; width:660px; height:200px; margin:20px 0; padding:15px 0 0 0;}
+.bj_record h3{ font:14px/14px "宋体"; color:#333; font-weight:bold;}
+.bj_record dl{ float:left; overflow:hidden; width:150px; margin:10px 15px 0 0; border-top:2px solid #1e9dcc;}
+.bj_record dl dt{ float:left; width:150px;}
+.dt{ display:block; font:12px/22px "宋体"; color:#666; height:26px; }
+.dt a{ display:inline; margin-left:9px;}
+.bj_record dl dt img{ width:150px; height:100px;}
+.bj_record dl dd{ float:left; width:150px; height:36px; margin-top:8px;}
+.bj_record dl dd a{ font:14px/18px "宋体"; color:#333; font-weight:bold;}
+.bj_record dl dd a:hover{ color:#0099cc;}
+/*弹出层*/
+.opcity_one{position:fixed;_position:absolute; z-index:9999; width:100%; height:100%; top:0; left:0; background-color:#000;opacity:0.5;filter:alpha(opacity=50)}
+.opcity_two{ position:fixed;_position:absolute; z-index:99999; width:100%; height:100%; left:28%; top:30%;}
+* html .opcity_one{position:absolute;width:expression(eval(document.documentElement.clientWidth)); height:expression(eval(document.documentElement.clientHeight)); left:expression(eval(document.documentElement.scrollLeft));top:expression(eval(document.documentElement.scrollTop))}
+* html .opcity_two{position:absolute;left:expression(eval(document.documentElement.scrollLeft+document.documentElement.clientWidth-this.offsetWidth)-350);top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight)-200)}
+/*登录*/
+.logn{ width:340px; height:185px; background-color:#FFF; border:5px solid #c5c5c5;}
+.logn .logn_pip{display:block; float:left; width:230px; margin:0 0 0 75px!important; margin:0 0 0 37px; font:12px/14px '宋体'; color:#cc0000;}
+.logn dl{ float:left;}
+.logn dt{ float:left; width:72px; padding-bottom:15px; text-align:right; font:14px/26px "宋体";}
+.logn dd{ float:left; width:220px; padding-bottom:15px;}
+.logn dd input{ width:230px; height:26px; line-height:26px; border:1px solid #b7cbd1; vertical-align:middle;}
+.logn dd .ofun{ border:1px solid #0099cc;}
+.logn dd .but{ float:left; width:103px; height:30px; margin-top:5px; background:url(http://imgs.ebrun.com/images/login_but.jpg) no-repeat left top; border:none; cursor:pointer;}
+.logn dd .but_light{ float:left; width:103px; height:30px; margin-top:5px; background:url(http://imgs.ebrun.com/images/login_but_lgth.jpg) no-repeat left top; border:none; cursor:pointer;}
+.logn dd a{ display:block; float:left; margin-left:25px; margin-top:5px; line-height:30px;}
+.logn span{ clear:both; float:right; width:99px; height:9px; margin:10px 10px 0 0; text-align:right;}
+.logn span input{ width:9px; height:9px; background:url(http://imgs.ebrun.com/images/close_red.jpg) no-repeat left top; cursor:pointer; border:none;}
+
+/*放大图片*/
+.pic_one{ position:fixed; z-index:19; width:100%; height:100%; top:0; left:0; background-color:#000;opacity:0.75;filter:alpha(opacity=75)}
+.pic_two{position:absolute;z-index:199; margin:0 auto;}
+* html .pic_one{ float:none;position:absolute;top:expression(eval(document.documentElement.scrollTop)); width:expression(eval(document.documentElement.clientWidth)); height:expression(eval(document.documentElement.clientHeight));}
+.big_pic{position:absolute;float:none; width:auto;background-color:#FFF; padding:10px 10px 0 10px; margin:0 auto; top:-100px}
+.big_pic img{ clear:both; float:left;}
+.close_pic_but{ float:right; width:45px; height:15px; margin:5px 10px 0 0; background:url(http://imgs.ebrun.com/images/close_pic_but.jpg) no-repeat left top; border:none; cursor:pointer;}
+.share_div{ position:relative; clear:both; float:left; width:100%;height:30px; padding-top:10px;}
+.share_div div{ float:left; width:auto}
+/*+++评论模块++++*/
+.discussdiv{ position:relative; clear:both; float:left; width:100%; margin:25px 0;}
+.discussdiv dl{ display:block; clear:both; float:left; width:100%; margin-top:15px; padding-bottom:18px;}
+.discussdiv dl dt{ display:block; float:left; width:65px;}
+.discussdiv dl dd{ display:block; overflow:hidden; float:left; width:595px;}
+.discussdiv dl dd h3{ font-weight:normal;}
+.discussdiv dl dd h3 a{ display:block; float:left; font:14px/18px "宋体"; color:#1e9dcc;}
+.discussdiv dl dd h3 span{ display:block; float:right; font:12px/18px "宋体"; color:#999999;}
+.discussdiv dl dd .wordp{ display:block; clear:both; float:left; width:100%; padding-top:5px;}
+.discussdiv dl dd .wordp span{ display:block; float:left; width:460px; font:14px/22px "宋体"; color:#666;}
+.discussdiv dl dd .wordp a{ display:block; float:right; font:12px/18px "宋体"; color:#1e9dcc; margin-left:15px;}
+.discussdiv dl dd .askdiv{ clear:both; float:left; width:557px; border-bottom:1px solid #b7cbd1; background:url(http://imgs.ebrun.com/images/askdivbg.jpg) no-repeat left top; padding-top:9px;}
+.discussdiv dl dd .askdiv p{ display:block; float:left; width:537px; padding:6px 10px; background:url(http://imgs.ebrun.com/images/rebtbg.jpg) repeat-y left top;}
+.discussdiv dl dd .askdiv p a{ display:block; float:left; font:12px/22px "宋体"; color:#1e9dcc;}
+.discussdiv dl dd .askdiv p span{ display:block; clear:both; float:left; font:12px/22px "宋体"; color:#666666;}
+.discussdiv dl dd .textarea{float:left; width:554px; height:50px; padding:5px; margin:10px 0; border:1px solid #b7cbd1; font:14px/22px "宋体"; color:#333333;overflow-y:hidden}
+.discussdiv dl dd .aska{ display:block; clear:both; float:left; margin-left:516px!important;margin-left:258px}
+.discussdiv .dlmore{ overflow:hidden; text-align:center;}
+.discussdiv .dlmoreheight{ height:30px;}
+.discussdiv .saydisdl{ padding:0}
+.discussdiv .saydisdl dd textarea{float:left; width:580px; height:50px; padding:5px; border:1px solid #b7cbd1; font:14px/22px "宋体"; color:#bbbbbb;overflow-y:hidden}
+.discussdiv .saydisdl dd .lunp{ display:block; clear:both; float:left; width:100%; margin-top:8px; height:30px;}
+.discussdiv .saydisdl dd .lunp span{ display:block; float:left; font:12px/20px "宋体"; color:#666;}
+.discussdiv .saydisdl dd .lunp span input{ float:left; margin:2px 8px 0 0;*margin:-3px 5px 0 0;}
+.discussdiv .saydisdl dd .lunp .faspan{float:right; width:auto;}
+.discussdiv .saydisdl dd .lunp .faspan a{ display:block; float:right; width:90px; height:30px; margin-left:10px; background:url(http://imgs.ebrun.com/images/fabiaobut.jpg) no-repeat left top;}
+.discussdiv .saydisdl dd .lunp .faspan a:hover{ background-position:right;}
+.disline{ clear:both; float:left; overflow:hidden; width:100%; height:1px; border-top:1px solid #dddddd;}
+.binglogin{ float:left; position:fixed;_position:absolute; left:20%; top:50%; width:494px; padding:18px; background-color:#f1f1f1; border:1px solid #dedede; z-index:99999; }
+* html .binglogin{position:absolute;left:expression(eval(document.documentElement.scrollLeft+document.documentElement.clientWidth-this.offsetWidth)-600);top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight)-200)}
+.binglogin .disclosebut{ display:block; float:right;}
+.bingopcleft{ float:left; width:240px; padding:0 30px 0 12px; margin-top:12px; border-right:1px solid #e1e1e1;}
+.bingopcleft .wrongspan{ display:block; float:left; width:100%; font:12px/20px "宋体"; color:#cc0000;}
+.bingopcleft input{ width:220px; height:35px; border:1px solid #b7cbd1; padding:0 9px; margin-bottom:15px; font:14px/35px "宋体"; color:#999;}
+.bingopcleft .currentinput{ border:1px solid #0099cc;font:14px/35px "宋体"; color:#cccccc;}
+.bingopcleft .buta{display:block; width:240px; height:40px; background-color:#0099cc; text-align:center;}
+.bingopcleft p input{ float:left; width:auto; height:auto; margin:4px 8px 0 0;*margin:0 2px 0 0; padding:0; border:none;}
+.bingopcleft p span{ display:block; float:left; margin-top:5px; font:12px/22px "宋体"; color:#999999;}
+.bingopcleft p span a{font:12px/22px "宋体"; color:#999999;}
+.bingopcleft p span a:hover{ color:#0099cc}
+.bingopcleft p .rightspan{ float:right;}
+.bingopcright{ float:left; width:150px; padding-left:30px; margin-top:12px;}
+.bingopcright span{ font:12px/18px "宋体"; color:#999;}
+.bingopcright a{ display:block; float:left; margin-top:8px;}
+/*+++评论模块2013++++*/
+.commentsdiv{ clear:both; float:left; width:100%; margin:24px 0 20px 0;}
+.commentsdiv h3{ display:block; width:100%; height:32px; border-bottom:2px solid #1e9dcc;}
+.commentsdiv h3 span{ display:block; float:left; font: bold 16px/32px 'Microsoft YaHei,Arial,HELVETICA';}
+.commentsdiv h3 a{ display:block; float:right; font: normal 14px/32px 'Microsoft YaHei,Arial,HELVETICA'; color:#666;}
+.commentsdiv h3 a font{ font:24px/32px Georgia, "Times New Roman", Times, serif; color:#cc0000;}
+.commentsdiv dl{ display:block; float:left; width:658px; margin-top:18px; border:1px solid #b7cbd1;}
+.commentsdiv dl dt{ display:block; float:left; width:97px; padding:15px 0; border-right:1px solid #b7cbd1; text-align:center;}
+.commentsdiv dl dt img{ width:50px; height:50px;}
+.commentsdiv dl dd{ display:block; float:left; width:550px; padding:5px; font:14px/30px "宋体"; color:#999999;}
+.commentsdiv dl dd textarea{ width:509px; height:70px; font:14px/22px "宋体"; color:#333333; border:none; background:none; overflow-y:auto; scroll-y:hidden;}
+.commentsdiv dl dd .textarea{font:14px/22px "宋体"; color:#999999;width:509px;}
+.commentsdiv p{ display:block; float:left; width:100%; margin-top:10px;}
+.commentsdiv p a{ display:block; float:left; font:14px/30px "宋体"; color:#0099cc;}
+.commentsdiv p a strong{ display:block; padding-right:10px;}
+.commentsdiv p span{ display:block; float:right;font:14px/30px "宋体"; color:#999999;}
+.commentsdiv p .buta{ float:right; width:90px; height:30px; margin-left:8px; background:url(http://imgs.ebrun.com/images/fabiaobut.jpg) no-repeat left top;}
+.commentsdiv p i{ display:block; float:left; padding:0 3px; font:14px/30px "宋体"; color:#999999;}
+/*+++++++++++++++++++++++2013年头部修改++++++++++++++++++++++++++*/
+.top2013{ overflow:hidden; width:960px; height:81px; margin:0 auto;}
+.toptitle{ width:100%; height:34px; background-color:#0a315a;}
+.toptitle div{ width:960px; margin:0 auto; height:34px; }
+.toptitle ol{ display:block; float:left; height:34px; text-indent:-10px;}
+.toptitle ol li{ font:12px/34px "宋体"; color:#FFFFFF;}
+.toptitle ol li a{ margin:0 10px; font:12px/34px "宋体"; color:#FFFFFF;}
+.toptitle ol li a:hover{ color:#FFFFFF; text-decoration:underline;}
+.toptitle div ul{ display:block; float:right; width:auto; height:34px; width:650px;}
+.toptitle div ul li{ display:block; float:right; position:relative;}
+.toptitle div ul li a{ font:12px/34px "宋体"; color:#FFFFFF;}
+.toptitle div ul li a:hover{ font:12px/34px "宋体"; color:#FFFFFF;}
+.toptitle div ul li a img{ float:left; padding:0; margin:0;}
+.toptitle div ul .loginli a{ display:block; float:left; width:56px; text-align:center;}
+.toptitle div ul .loginli a:hover{ font:12px/34px "宋体"; color:#FFFFFF; text-decoration:none;}
+.toptitle div ul .loginli .currrenta{ background-color:#ff8500;}
+.toptitle div ul .loginshowli{ width:auto; padding-right:15px; background:url(http://imgs.ebrun.com/images/over_bom.jpg) no-repeat right -2px;}
+.toptitle div ul .shownamecurrent{ background:url(http://imgs.ebrun.com/images/over_up.jpg) no-repeat right -2px;}
+.toptitle div ul .loginshowli a:hover{width:auto; text-decoration:none;}
+.toptitle div ul .lineli{ height:34px; width:1px; background-color:#0f4784;}
+.toptitle div ul .selectform{ padding:5px 0 0 15px;}
+.toptitle div ul .selectform .inputtext{ float:left; width:120px; height:24px; padding:0 10px; background:url(http://imgs.ebrun.com/images/selectbg.jpg) no-repeat left bottom; border:none;font:12px/24px "宋体"; color:#b2b2b2;}
+.toptitle div ul .selectform .inputbut{ float:left; width:35px; height:24px; background:url(http://imgs.ebrun.com/images/selexctbutbg.jpg) no-repeat left top; border:none; cursor:pointer;}
+.toptitle div ul li .over2013{ position:absolute; width:100px; height:auto; background-color:#0a315a; left:-59px; top:34px;z-index:1001;}
+.toptitle div ul li .over2013 .lihr{ float:left; overflow:hidden; width:100%; background-color:#0f4784; height:1px; }
+.toptitle div ul li .over2013 li{ display:block; float:left; width:100%; text-align:center;}
+.toptitle div ul li .over2013 li a:hover{font:12px/34px "宋体"; color:#FFFFFF; text-decoration:none;}
+.toptitle div ul li .wx2013{ position:absolute; overflow:hidden; width:130px; height:130px; padding:10px;background-color:#0a315a; left:-114px; top:34px;z-index:1001;}
+.top2013 a{ display:block; float:left;}
+.top2013 dl{ display:block; float:left;}
+.top2013 dl dd{ display:block; float:right; width:100%;}
+.top2013 dl dd a{ display:block; float:right; margin-left:20px; font:12px/22px "宋体"; color:#FFFFFF;}
+.top2013 dl dd a:hover{ color:#FFFFFF;}
+.top2013 .linediv{ float:left; width:1px; height:65px; margin-left:20px; background:url(http://imgs.ebrun.com/images/menudivbgline.jpg) repeat-y left top;}
+.ebrun_action{ clear:both; width:960px;  margin:18px 0 0 0; height:0; overflow:hidden}
+.menu_yiny{ width:100%; height:7px; background:url(http://imgs.ebrun.com/images/menu_yiny.jpg) repeat-x left top;}
+
+/* 20130513 */
+.toptitle div ul .loginli a.ebrun_btn_login{background:#ff8500}
+.toptitle{z-index:10000;left:0;}
+
+
+/**mobile layer*/
+.bomb_spread{width:110px;position:fixed;font:normal 12px/15px "宋体";color:#666;_position:absolute;bottom:70px;right:0;}
+.sp_con{background:#ededed;text-align:center;}
+.sp_qrCode{margin-bottom:10px;padding:8px 0;}
+.sp_qrCode img{margin-top:8px;}
+.sp_mobile{padding:8px 0 5px 0;}
+.mo_icon{display:inline-block;width:40px;height:35px;margin-top:5px;}
+.mo_apple{background:url(http://imgs.ebrun.com/images/130510bg_02.jpg);}
+.mo_android{background:url(http://imgs.ebrun.com/images/130510bg_03.jpg);margin-left:3px;}
+
+.w_657{width:657px;}
+
+/* 20130513 */
+.toptitle div ul .loginli a.ebrun_btn_login{background:#ff8500}
+.toptitle{z-index:10000;left:0;}
+
+
+
+
+/**mobile layer*/
+.bomb_spread{width:110px;position:fixed;font:normal 12px/15px "宋体";color:#666;_position:absolute;bottom:70px;right:0;}
+.sp_con{background:#ededed;text-align:center;}
+.sp_qrCode{margin-bottom:10px;padding:8px 0;}
+.sp_qrCode img{margin-top:8px;}
+.sp_mobile{padding:8px 0 5px 0;}
+.mo_icon{display:inline-block;width:40px;height:35px;margin-top:5px;}
+.mo_apple{background:url(http://imgs.ebrun.com/images/130510bg_02.jpg);}
+.mo_android{background:url(http://imgs.ebrun.com/images/130510bg_03.jpg);margin-left:3px;}
+
+
+
+/* 页脚 */
+.ebDet_footer .footer_cunt dl{width:115px;margin:0;}
+.ebDet_footer .footer_cunt dl dt{border:0 none;font:14px/27px Microsoft YaHei,Arial,HELVETICA;height:auto;padding:0;margin-bottom:4px;}
+.ebDet_footer .footer_cunt dl dd{padding:0;width:auto;background:none;padding:0;margin:0;}
+.ebDet_footer .footer_cunt dl .topdd a{background:url(http://imgs.ebrun.com/images/home_nav.gif) no-repeat;color:#333;font-size:12px;line-height:22px;padding-left:7px;}
+.ebDet_footer .footer_cunt dl dd a{line-height:21px;}
+.ebDet_footer .footer_cunt dl dt a{font:14px/27px Microsoft YaHei,Arial,HELVETICA;float:none;}
+.ebDet_footer .footer_cunt{margin-top:16px;padding:0;padding-bottom:26px;height:auto;}
+
+
+.footer_box{background:#2c2c2c;width:100%;height:auto;}
+.footer{width:960px;margin:0 auto;}
+.footer dl{width:96px;margin:21px 0 20px; 0;float:left;display:inline;}
+.footer dl.w_161{width:161px;}
+.footer dt{margin-bottom:7px;color:#fff;font-size:14px;}
+.footer dd a{color:#999;line-height:21px;}
+.footer dd a:hover{text-decoration:none;}
+.allwap_nav{display:inline-block;background:url(http://imgs.ebrun.com/images/c_bg06.gif) right center no-repeat;margin-top:20px;height:22px;padding-right:20px;color:#999;line-height:22px;}
+.allwap_nav:hover{text-decoration:none;color:#999;}
+.ft_01{color:#ddd;font-size:14px;margin-bottom:8px;}
+.ft_02{margin-bottom:8px;}
+.ft_02 a{color:#666;font-size:12px;}
+.footer dl.mobile_appLink{margin:76px 0 0 -12px;width:150px;}
+.mobile_appLink a{display:inline-block;width:110px;height:26px;}
+.store_app{background:url(http://imgs.ebrun.com/images/c_bg01.gif);margin-bottom:7px;}
+.andr_app{background:url(http://imgs.ebrun.com/images/c_bg02.gif);}
+.store_app:hover{background:url(http://imgs.ebrun.com/images/c_bg03.gif);}
+.andr_app:hover{background:url(http://imgs.ebrun.com/images/c_bg04.gif);}
+.footer dl.mobile_news01{margin-top:10px;}
+.footer dl.mobile_news{width:110px;}
+.fDown_box{background:#000;width:100%;height:39px;line-height:39px;overflow:hidden;}
+.fDown{width:960px;margin:0 auto;}
+.fDown,.fDown a{color:#666;}
+.fDown span{margin-right:17px;}
+.fDown a{margin-left:17px;}
+.t_r{text-align:right;padding-right:26px;}
+
+
+
+.opcity_one{position:fixed;_position:absolute; z-index:9999; width:100%; height:100%; top:0; left:0; background-color:#000;opacity:0.5;filter:alpha(opacity=50)}
+/*common*/
+.fl{float:left;display:inline;}
+.fr{float:right;display:inline;}
+.clearfix:after{content: ".";display:block;height:0;clear:both;visibility:hidden;}
+.clearfix{zoom:1;}
+.clear{overflow:hidden;zoom:1;}
+/* 公用尾部 */
+.bu_footer_box{width:100%;height:173px;overflow:hidden;background:#2c2c2c;}
+.bu_footer{width:960px;margin:0 auto;}
+.bu_footer dl{width:97px;padding-top:24px;float:left;}
+.bu_footer dt{color:#ddd;font:normal 14px Microsoft YaHei,Arial,HELVETICA;margin-bottom:8px;}
+.bu_footer dd a{color:#999;font:normal 12px "宋体";text-decoration:none;line-height:21px;}
+.allwap_bNav{display:inline-block;background:url(http://imgs.ebrun.com/images/c_bg06.gif) right center no-repeat;height:22px;padding-right:20px;line-height:22px;}
+.bu_rig{padding-top:25px;}
+.bu_tap{margin-bottom:4px;height:16px;margin-top:14px;}
+.bu_error{font:normal 12px "宋体";color:#cc0000;margin-left:10px;}
+.bu_success{font:normal 12px "宋体";color:#999;padding-left:20px;margin-left:10px;background:url(http://imgs.ebrun.com/images/bu_icon06.gif) left center no-repeat;height:16px;line-height:16px;display:inline-block;}
+.bu_icon a{display:inline-block;width:31px;height:31px;margin-right:8px;}
+.bu_i01{background:url(http://imgs.ebrun.com/images/bu_icon01.gif);}
+.bu_i02{background:url(http://imgs.ebrun.com/images/bu_icon02.gif);}
+.bu_i03{background:url(http://imgs.ebrun.com/images/bu_icon03.gif);}
+.bu_i04{background:url(http://imgs.ebrun.com/images/bu_icon04.gif);}
+.bu_i05{background:url(http://imgs.ebrun.com/images/bu_icon05.gif);}
+.bu_i01:hover{background:url(http://imgs.ebrun.com/images/bu_h01.gif);}
+.bu_i02:hover{background:url(http://imgs.ebrun.com/images/bu_h02.gif);}
+.bu_i03:hover{background:url(http://imgs.ebrun.com/images/bu_h03.gif);}
+.bu_i04:hover{background:url(http://imgs.ebrun.com/images/bu_h04.gif);}
+.bu_i05:hover{background:url(http://imgs.ebrun.com/images/bu_h05.gif);}
+.bu_text{width:174px;height:34px;line-height:34px;background:#000;padding-left:10px;border:0 none;outline:none;color:#666;font:normal 14px Microsoft YaHei,Arial,HELVETICA;}
+.bu_button{height:34px;line-height:34px;width:68px;background:#f59f18;color:#fff;font:normal 14px Microsoft YaHei,Arial,HELVETICA;border:0 none;cursor:pointer;}
+.bu_button:hover{background:#ff9d00;}
+.bu_info{font:normal 14px Microsoft YaHei,Arial,HELVETICA;color:#999;margin-top:10px;}
+.bu_tap{margin-bottom:4px;height:16px;margin-top:14px;_height:auto;}
+.bu_text{width:174px;height:34px;line-height:34px;_height:30px;_padding-top:5px;background:#000;padding-left:10px;border:0 none;outline:none;color:#666;font:normal 14px Microsoft YaHei,Arial,HELVETICA;}
+/* 备字 */
+.bu_copy_box{width:100%;height:39px;line-height:39px;overflow:hidden;background:#000;}
+.bu_copy{width:960px;margin:0 auto;}
+.bu_copy,.bu_copy a{font:normal 12px "宋体";color:#666;text-decoration:none;line-height:39px;}
+.bu_copy a{margin:0 5px 0 15px;}
