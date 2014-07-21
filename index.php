@@ -1,74 +1,7 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <title></title>
-  <link href="./css/common.css" rel="stylesheet" type="text/css">
-  <link href="./css/global.css" rel="stylesheet" type="text/css">
-  <link href="./css/cistyle.css" rel="stylesheet" type="text/css">
-
-  <script type="text/javascript" src="./js/jquery.js"></script>
-  <script type="text/javascript" src="./js/script.js"></script>
-</head>
-<body>
-
+<?php include "head.php"; ?>
 
 <div id="header">
-  <div class="toptitle">
-    <div>
-      <ol>
-        <li>
-          <a target="_blank" title="WAP版" rel="nofollow" href="http://m.ebrun.com/">收藏ci086</a>|
-          <a title="设为首页" onclick="setHome(this, window.location.href);return false;" href="javascript:void(0);">设为首页</a>
-        </li>
-      </ol>
-      <ul>
-        <form name="searchForm1" method="get" action="">
-          <li class="selectform">
-            <input type="hidden" value="" name="channel">
-            <input type="text" class="inputtext" onfocus="javascript:if(this.value=='请输入关键词'){this.value='';this.focus();};" onblur="javascript:if(this.value==''){this.value='请输入关键词';};" value="请输入关键词" id="keyword" name="keyword">
-            <input type="button" onclick="if(document.getElementById('keyword').value=='请输入关键词'){document.getElementById('keyword').value='';}this.form.submit();" value="" class="inputbut">
-          </li>
-        </form>
-        <li class="lineli"></li>
-        <li class="top_hover_menu">
-          <a title="关于我们" style=""><img width="40" height="34" src="http://imgs.ebrun.com/images/I_icon.jpg"></a>
-          <ul class="over2013">
-            <li><a target="_blank" title="公司简介" href="">公司简介</a></li>
-            <li class="lihr"></li>
-            <li><a target="_blank" title="亿邦产品" href="">亿邦产品</a></li>
-            <li class="lihr"></li>
-            <li><a target="_blank" title="联系方式" href="">联系方式</a></li>
-            <li class="lihr"></li>
-            <li><a target="_blank" title="招聘信息" href="">招聘信息</a></li>
-          </ul>
-        </li>
-        <li class="lineli"></li>
-        <li style=" padding-right:5px;" class="top_hover_menu">
-          <a target="_blank" title="微信" >
-            <img width="30" height="34" src="http://imgs.ebrun.com/images/wexin_icontop.jpg">
-          </a>
-          <ul class="wx2013">
-            <li><a title="扫描关注亿邦微信"><img src="http://imgs.ebrun.com/images/ebrunwexin.jpg"></a></li>
-          </ul>
-        </li>
-        <li>
-          <a target="_blank" title="新浪微博" rel="nofollow" href="">
-            <img width="30" height="34" src="http://imgs.ebrun.com/images/sina_icontop.jpg">
-          </a>
-        </li>
-        <li style="padding:0 5px 0 10px;">
-          <a title="关注我们">关注我们</a>
-        </li>
-        <li class="lineli"></li>
-        <li class="loginli">
-          <a class="ebrun_btn_login">登录</a>
-          <a title="注册" href="#">注册</a>
-        </li>
-      </ul>
-    </div>
-  </div>
+  <?php include "toptitle.php"; ?>
 
   <div id="ebj_0" class="ebrun_action" style="height: auto; margin: 15px auto;">
     <a rel="nofollow" target="_blank" href="">
@@ -167,8 +100,8 @@
 
   </div>
 </div><!--header-->
-
-<div class="main clearfix">
+<div class="clear"></div>
+<div class="main">
   <div class="max_width clearfix">
     <div class="ad">
       <a href="#">
@@ -176,7 +109,7 @@
       </a>
     </div>
 
-    <div class="clearfix">
+    <div class="clearfix" style="float:left;width:100%">
 
       <div class="ebruNew fl">
         <div class="ebruNew">
@@ -236,44 +169,51 @@
       <div class="fl">
         <div id="rubycon" class="rubycon">
           <ul id="rubycon_ul" class="rubycon_ul">
-            <li class=""></li>
-            <li class="rub_cuta"></li>
-            <li class=""></li>
-            <li class=""></li>
-            <li class=""></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
           </ul>
-          <ul class="inner">
-            <li style="display: none;">
-              <a target="_blank" title="【调查】电商土人，敢穿潮牌上街吗？" href="http://apps.ebrun.com/survey/20140709/162.html"><img alt="【调查】电商土人，敢穿潮牌上街吗？" src="http://imgs.ebrun.com/resources/2014_07/2014_07_13/20140713_14052135589762.jpg"></a>
-              <span></span><a target="_blank" title="【调查】电商土人，敢穿潮牌上街吗？" href="http://apps.ebrun.com/survey/20140709/162.html" class="span_a">【调查】电商土人，敢穿潮牌上街吗？</a>
-            </li>
+          <div id="banner_marqueew">
+            <ul class="inner" id="banner_marquee">
+              <li style="display: none;">
+                <a target="_blank" title="【调查】电商土人，敢穿潮牌上街吗？" href="">
+                  <img alt="" src="http://imgs.ebrun.com/resources/2014_07/2014_07_13/20140713_14052135589762.jpg">
+                </a>
+                <span></span>
+                <a target="_blank" title="【调查】电商土人，敢穿潮牌上街吗？" href="" class="span_a">【调查】电商土人，敢穿潮牌上街吗？</a>
+              </li>
 
-            <li style="display: list-item;">
-              <a target="_blank" title="【推广】品胜实现百城当日达：破局O2O" href="http://www.ebrun.com/tc/event/pisen.shtml"><img alt="【推广】品胜实现百城当日达：破局O2O" src="http://imgs.ebrun.com/resources/2014_07/2014_07_09/20140709_14048893877262.jpg"></a>
-              <span></span><a target="_blank" title="【推广】品胜实现百城当日达：破局O2O" href="http://www.ebrun.com/tc/event/pisen.shtml" class="span_a">【推广】品胜实现百城当日达：破局O2O</a>
-            </li>
+              <li style="display: list-item;">
+                <a target="_blank" title="【推广】品胜实现百城当日达：破局O2O" href="">
+                  <img alt="" src="http://imgs.ebrun.com/resources/2014_07/2014_07_09/20140709_14048893877262.jpg">
+                </a>
+                <span></span>
+                <a target="_blank" title="【推广】品胜实现百城当日达：破局O2O" href="" class="span_a">【推广】品胜实现百城当日达：破局O2O</a>
+              </li>
+              <li style="display: none;">
+                <a target="_blank" title="【调查】电商土人，敢穿潮牌上街吗？" href="">
+                  <img alt="" src="http://imgs.ebrun.com/resources/2014_07/2014_07_13/20140713_14052135589762.jpg">
+                </a>
+                <span></span>
+                <a target="_blank" title="【调查】电商土人，敢穿潮牌上街吗？" href="" class="span_a">【调查】电商土人，敢穿潮牌上街吗？</a>
+              </li>
 
-            <li style="display: none;">
-              <a target="_blank" title="【回顾】2014国际电子商务大会（青岛）" href="http://www.ebrun.com/qingdaolive.shtml"><img alt="【回顾】2014国际电子商务大会（青岛）" src="http://imgs.ebrun.com/resources/2014_07/2014_07_11/20140711_14050769482412.jpg"></a>
-              <span></span><a target="_blank" title="【回顾】2014国际电子商务大会（青岛）" href="http://www.ebrun.com/qingdaolive.shtml" class="span_a">【回顾】2014国际电子商务大会（青岛）</a>
-            </li>
-
-            <li style="display: none;">
-              <a target="_blank" title="【实战】两招教你玩转手机淘宝转化率" href="http://www.siilu.com/20140711/104169.shtml"><img alt="【实战】两招教你玩转手机淘宝转化率" src="http://imgs.ebrun.com/resources/2014_07/2014_07_11/20140711_14050458261482.jpg"></a>
-              <span></span><a target="_blank" title="【实战】两招教你玩转手机淘宝转化率" href="http://www.siilu.com/20140711/104169.shtml" class="span_a">【实战】两招教你玩转手机淘宝转化率</a>
-            </li>
-
-            <li style="display: none;">
-              <a target="_blank" title="【推广】亚马逊全球开店" href="http://kaidian.amazon.cn/?ld=BACNSOAEBRU-HPKV"><img alt="【推广】亚马逊全球开店" src="http://imgs.ebrun.com/resources/2014_06/2014_06_21/20140621_14033575073042.jpg"></a>
-              <span></span><a target="_blank" title="【推广】亚马逊全球开店" href="http://kaidian.amazon.cn/?ld=BACNSOAEBRU-HPKV" class="span_a">【推广】亚马逊全球开店</a>
-            </li>
-
-          </ul>
+              <li style="display: none;">
+                <a target="_blank" title="【推广】品胜实现百城当日达：破局O2O" href="">
+                  <img alt="" src="http://imgs.ebrun.com/resources/2014_07/2014_07_09/20140709_14048893877262.jpg">
+                </a>
+                <span></span>
+                <a target="_blank" title="【推广】品胜实现百城当日达：破局O2O" href="" class="span_a">【推广】品胜实现百城当日达：破局O2O</a>
+              </li>
+            </ul>
+          </div>
         </div>
         <div class="clearfix mt_20">
           <div class="fl">
             <div class="ebHome_dayCha">
               <h2 class="clearfix"><a target="_blank" class="pub_link01 fr" rel="nofollow" href="http://www.ebrun.com/data/">进入数据频道</a>每日变数</h2>
+              <div class="clear"></div>
               <ul class="act_list">
                 <li><a target="_blank" title="阿里巴巴最新自我估值为1300亿美元" href="">阿里巴巴最新自我估值为1300亿美元</a></li>
                 <li><a target="_blank" title="在线洗涤泰笛网获千万A轮融资" href="">在线洗涤泰笛网获千万A轮融资</a></li>
@@ -289,7 +229,7 @@
                   <p><a target="_blank" title="雅虎收购流媒体视频公司RayV" href="http://www.ebrun.com/20140712/104296.shtml">雅虎收购流媒体视频公司RayV</a></p>
                 </div>
               </div>
-
+              <div class="clear"></div>
               <ul class="act_list">
                 <li><a target="_blank" title="阿里巴巴最新自我估值为1300亿美元" href="http://www.ebrun.com/20140712/104298.shtml">阿里巴巴最新自我估值为1300亿美元</a></li>
                 <li><a target="_blank" title="在线洗涤泰笛网获千万A轮融资" href="http://www.ebrun.com/20140711/104262.shtml">在线洗涤泰笛网获千万A轮融资</a></li>
@@ -361,15 +301,42 @@
           </div>
           <div class="fl">
             <div class="ebHome_tap03 ebHome_list01">
-              <h2 class="clearfix"><span class="fr tap03_link"><a href="javascript:void(0);" class="hover"></a><a href="javascript:void(0);"></a><a href="javascript:void(0);"></a></span><a target="_blank" title="Global" href="http://www.ebrun.com/intl/">Global</a></h2>
+              <h2 class="clearfix">
+                <ul class="fr tap03_link" id="martab1_c">
+                  <li ></li>
+                  <li ></li>
+                  <li ></li>
+                </ul>
+                <a target="_blank" title="Global" href="http://www.ebrun.com/intl/">Global</a>
+              </h2>
               <div class="top03_btnbox">
-                <a style="opacity: 0.6; display: none;" class="home_btn home_prev" href="javascript:void(0);"></a><a style="opacity: 0.6; display: none;" class="home_btn home_next" href="javascript:void(0);"></a>
-                <div class="tap03_m">
-                  <div style="width:750px;" class="tap03_box clearfix">
-                    <div data-index="1" class="tap03_con"><a target="_blank" href="http://www.ebrun.com/20140710/104083.shtml"><img width="250" height="100" alt="亚马逊网上售书给出版商下套" title="亚马逊网上售书给出版商下套" src="http://imgs.ebrun.com/resources/2014_07/2014_07_10/20140710_14049595021163.jpg"></a><p class="tap03_text">亚马逊网上售书给出版商下套</p></div>
-                    <div data-index="2" class="tap03_con"><a target="_blank" href="http://www.ebrun.com/20140711/104181.shtml"><img width="250" height="100" alt="印度电商之王：色情网站起家" title="印度电商之王：色情网站起家" src="http://imgs.ebrun.com/resources/2014_07/2014_07_11/20140711_14050402319913.jpg"></a><p class="tap03_text">印度电商之王：色情网站起家</p></div>
-                    <div data-index="3" class="tap03_con"><a target="_blank" href="http://www.ebrun.com/20140709/103928.shtml"><img width="250" height="100" alt="LivingSocial高管集体更换" title="LivingSocial高管集体更换" src="http://imgs.ebrun.com/resources/2014_07/2014_07_09/20140709_14048711906633.jpg"></a><p class="tap03_text">LivingSocial高管集体更换</p></div>
-                  </div>
+                <a style="opacity: 0.6; display: none;" class="home_btn home_prev" href="javascript:void(0);"></a>
+                <a style="opacity: 0.6; display: none;" class="home_btn home_next" href="javascript:void(0);"></a>
+                <div class="tap03_m" id="martab1w">
+                  <ul class="tap03_box clearfix" id="martab1">
+
+                    <li class="tap03_con">
+                      <a target="_blank" href="">
+                        <img width="250" height="100" alt="" title="" src="http://imgs.ebrun.com/resources/2014_07/2014_07_10/20140710_14049595021163.jpg">
+                      </a>
+                      <p class="tap03_text">亚马逊网上售书给出版商下套</p>
+                    </li>
+
+                    <li class="tap03_con">
+                      <a target="_blank" href="">
+                        <img width="250" height="100" alt="" title="" src="http://imgs.ebrun.com/resources/2014_07/2014_07_10/20140710_14049595021163.jpg">
+                      </a>
+                      <p class="tap03_text">亚马逊网上售书给出版商下套</p>
+                    </li>
+
+                    <li class="tap03_con">
+                      <a target="_blank" href="">
+                        <img width="250" height="100" alt="" title="" src="http://imgs.ebrun.com/resources/2014_07/2014_07_10/20140710_14049595021163.jpg">
+                      </a>
+                      <p class="tap03_text">亚马逊网上售书给出版商下套</p>
+                    </li>
+
+                  </ul>
                 </div>
               </div>
             </div>
@@ -434,7 +401,7 @@
                   <a target="_blank" title="可穿戴设备的潮范儿" href="http://www.ebrun.com/20140713/104306.shtml">可穿戴设备的潮范儿</a>
                 </p>
               </div>
-
+              <div class="clear"></div>
               <ul class="tap02_list">
                 <li><a target="_blank" title="13家公司将无人机从战场带入日常生活" href="">13家公司将无人机从战场带入日常生活</a></li>
                 <li><a target="_blank" title="美国八大最先进军用科技" href="">美国八大最先进军用科技</a></li>
@@ -498,7 +465,7 @@
                   <a target="_blank" title="可穿戴设备的潮范儿" href="http://www.ebrun.com/20140713/104306.shtml">可穿戴设备的潮范儿</a>
                 </p>
               </div>
-
+              <div class="clear"></div>
               <ul class="tap02_list">
                 <li><a target="_blank" title="13家公司将无人机从战场带入日常生活" href="">13家公司将无人机从战场带入日常生活</a></li>
                 <li><a target="_blank" title="美国八大最先进军用科技" href="">美国八大最先进军用科技</a></li>
@@ -553,20 +520,41 @@
           <div class="fl">
             <div class="ebHome_tap03 ebHome_list01">
               <h2 class="clearfix">
-                <span class="fr tap03_link">
-                  <a href="javascript:void(0);" class="hover"></a>
-                  <a href="javascript:void(0);"></a><a href="javascript:void(0);"></a>
-                </span>
-                <a target="_blank" title="Global" href="http://www.ebrun.com/intl/">摄&nbsp;&nbsp;影</a>
+                <ul class="fr tap03_link" id="martab2_c">
+                  <li ></li>
+                  <li ></li>
+                  <li ></li>
+                </ul>
+                <a target="_blank" title="Global" href="">摄影</a>
               </h2>
               <div class="top03_btnbox">
-                <a style="opacity: 0.6; display: none;" class="home_btn home_prev" href="javascript:void(0);"></a><a style="opacity: 0.6; display: none;" class="home_btn home_next" href="javascript:void(0);"></a>
-                <div class="tap03_m">
-                  <div style="width:750px;" class="tap03_box clearfix">
-                    <div data-index="1" class="tap03_con"><a target="_blank" href="http://www.ebrun.com/20140710/104083.shtml"><img width="250" height="100" alt="亚马逊网上售书给出版商下套" title="亚马逊网上售书给出版商下套" src="http://imgs.ebrun.com/resources/2014_07/2014_07_10/20140710_14049595021163.jpg"></a><p class="tap03_text">亚马逊网上售书给出版商下套</p></div>
-                    <div data-index="2" class="tap03_con"><a target="_blank" href="http://www.ebrun.com/20140711/104181.shtml"><img width="250" height="100" alt="印度电商之王：色情网站起家" title="印度电商之王：色情网站起家" src="http://imgs.ebrun.com/resources/2014_07/2014_07_11/20140711_14050402319913.jpg"></a><p class="tap03_text">印度电商之王：色情网站起家</p></div>
-                    <div data-index="3" class="tap03_con"><a target="_blank" href="http://www.ebrun.com/20140709/103928.shtml"><img width="250" height="100" alt="LivingSocial高管集体更换" title="LivingSocial高管集体更换" src="http://imgs.ebrun.com/resources/2014_07/2014_07_09/20140709_14048711906633.jpg"></a><p class="tap03_text">LivingSocial高管集体更换</p></div>
-                  </div>
+                <a style="opacity: 0.6; display: none;" class="home_btn home_prev" href="javascript:void(0);"></a>
+                <a style="opacity: 0.6; display: none;" class="home_btn home_next" href="javascript:void(0);"></a>
+                <div class="tap03_m" id="martab2w">
+                  <ul class="tap03_box clearfix" id="martab2">
+
+                    <li class="tap03_con">
+                      <a target="_blank" href="">
+                        <img width="250" height="100" alt="" title="" src="http://imgs.ebrun.com/resources/2014_07/2014_07_10/20140710_14049595021163.jpg">
+                      </a>
+                      <p class="tap03_text">亚马逊网上售书给出版商下套</p>
+                    </li>
+
+                    <li class="tap03_con">
+                      <a target="_blank" href="">
+                        <img width="250" height="100" alt="" title="" src="http://imgs.ebrun.com/resources/2014_07/2014_07_10/20140710_14049595021163.jpg">
+                      </a>
+                      <p class="tap03_text">亚马逊网上售书给出版商下套</p>
+                    </li>
+
+                    <li class="tap03_con">
+                      <a target="_blank" href="">
+                        <img width="250" height="100" alt="" title="" src="http://imgs.ebrun.com/resources/2014_07/2014_07_10/20140710_14049595021163.jpg">
+                      </a>
+                      <p class="tap03_text">亚马逊网上售书给出版商下套</p>
+                    </li>
+
+                  </ul>
                 </div>
               </div>
             </div>
@@ -618,20 +606,41 @@
           <div class="fl">
             <div class="ebHome_tap03 ebHome_list01">
               <h2 class="clearfix">
-                <span class="fr tap03_link">
-                  <a href="javascript:void(0);" class="hover"></a>
-                  <a href="javascript:void(0);"></a><a href="javascript:void(0);"></a>
-                </span>
-                <a target="_blank" title="Global" href="http://www.ebrun.com/intl/">图&nbsp;&nbsp;说</a>
+                <ul class="fr tap03_link" id="martab3_c">
+                  <li ></li>
+                  <li ></li>
+                  <li ></li>
+                </ul>
+                <a target="_blank" title="Global" href="">图&nbsp;&nbsp;说</a>
               </h2>
               <div class="top03_btnbox">
-                <a style="opacity: 0.6; display: none;" class="home_btn home_prev" href="javascript:void(0);"></a><a style="opacity: 0.6; display: none;" class="home_btn home_next" href="javascript:void(0);"></a>
-                <div class="tap03_m">
-                  <div style="width:750px;" class="tap03_box clearfix">
-                    <div data-index="1" class="tap03_con"><a target="_blank" href="http://www.ebrun.com/20140710/104083.shtml"><img width="250" height="100" alt="亚马逊网上售书给出版商下套" title="亚马逊网上售书给出版商下套" src="http://imgs.ebrun.com/resources/2014_07/2014_07_10/20140710_14049595021163.jpg"></a><p class="tap03_text">亚马逊网上售书给出版商下套</p></div>
-                    <div data-index="2" class="tap03_con"><a target="_blank" href="http://www.ebrun.com/20140711/104181.shtml"><img width="250" height="100" alt="印度电商之王：色情网站起家" title="印度电商之王：色情网站起家" src="http://imgs.ebrun.com/resources/2014_07/2014_07_11/20140711_14050402319913.jpg"></a><p class="tap03_text">印度电商之王：色情网站起家</p></div>
-                    <div data-index="3" class="tap03_con"><a target="_blank" href="http://www.ebrun.com/20140709/103928.shtml"><img width="250" height="100" alt="LivingSocial高管集体更换" title="LivingSocial高管集体更换" src="http://imgs.ebrun.com/resources/2014_07/2014_07_09/20140709_14048711906633.jpg"></a><p class="tap03_text">LivingSocial高管集体更换</p></div>
-                  </div>
+                <a style="opacity: 0.6; display: none;" class="home_btn home_prev" href="javascript:void(0);"></a>
+                <a style="opacity: 0.6; display: none;" class="home_btn home_next" href="javascript:void(0);"></a>
+                <div class="tap03_m" id="martab3w">
+                  <ul class="tap03_box clearfix" id="martab3">
+
+                    <li class="tap03_con">
+                      <a target="_blank" href="">
+                        <img width="250" height="100" alt="" title="" src="http://imgs.ebrun.com/resources/2014_07/2014_07_10/20140710_14049595021163.jpg">
+                      </a>
+                      <p class="tap03_text">亚马逊网上售书给出版商下套</p>
+                    </li>
+
+                    <li class="tap03_con">
+                      <a target="_blank" href="">
+                        <img width="250" height="100" alt="" title="" src="http://imgs.ebrun.com/resources/2014_07/2014_07_10/20140710_14049595021163.jpg">
+                      </a>
+                      <p class="tap03_text">亚马逊网上售书给出版商下套</p>
+                    </li>
+
+                    <li class="tap03_con">
+                      <a target="_blank" href="">
+                        <img width="250" height="100" alt="" title="" src="http://imgs.ebrun.com/resources/2014_07/2014_07_10/20140710_14049595021163.jpg">
+                      </a>
+                      <p class="tap03_text">亚马逊网上售书给出版商下套</p>
+                    </li>
+
+                  </ul>
                 </div>
               </div>
             </div>
@@ -700,6 +709,7 @@
             <p><a target="_blank" title="#" href="#">备战双十一分享会7月在广州举办</a></p>
           </div>
         </div>
+        <div class="clear"></div>
         <ul class="act_list">
           <?php for($i=0;$i<11;$i++){ ?>
           <li><a target="_blank" title="#" href="">2014中国大数据高峰论坛于8月在上海举办</a></li>
@@ -716,98 +726,49 @@
       <div id="boxcons" class="ebDet_activity">
         <div class="ebDet_slideTit clearfix">
           <span id="abtnok" class="dianspan">
-            <a class="move" href="javascript:;"></a>
-            <a href="javascript:;" class=""></a>
-            <a href="javascript:;" class=""></a>
+            <span class="pre c s"><</span>
+            <span class="s"><span class="num">1</span>/2</span>
+            <span class="nxt c s">></span>
           </span>
           <h3>专&nbsp;&nbsp;题</h3>
         </div>
-        <div class="movesbox">
-          <div id="btnbox" class="bDet_activitylist" style="width: 1680px; left: 0px;">
-            <dl class="dllist">
-              <dt><a target="_blank" href="http://www.ebrun.com/20140711/104195.shtml">
-                  <img width="280" height="180" alt="揭秘郭美美近期生活秘照 " src="http://imgs.ebrun.com/resources/2014_07/2014_07_11/20140711_14050434685073.jpg">
-                </a></dt>
-              <dd style="bottom: -60px;">
-                <span></span>
-                <div>
-                  <h3>揭秘郭美美近期生活秘照 </h3>
-                  <p>昨天下午，北京市公安局证实，郭美美因为参与赌球被北京警方于前日抓获,郭美美为何一郑千金来豪赌？觉得赌债背后又隐藏着什么？
-                  </p>
-                </div>
+        <div class="movesbox" id="btnboxw">
 
-              </dd>
-            </dl>
-            <dl class="dllist">
-              <dt><a target="_blank" href="http://www.ebrun.com/20140710/104067.shtml">
-                  <img width="280" height="180" alt="揭秘娱乐圈富家小姐奢侈生活 " src="http://imgs.ebrun.com/resources/2014_07/2014_07_10/20140710_14049568866953.jpg">
-                </a></dt>
-              <dd style="bottom: -60px;">
-                <span></span>
-                <div>
-                  <h3>揭秘娱乐圈富家小姐奢侈生活 </h3>
-                  <p>在台湾，提起孙芸芸的名字，就如同在好莱坞说起名媛希尔顿的名字一样响亮；婚姻美满的她现在育有一子一女，孙芸芸依然是台湾时尚圈...
-                  </p>
-                </div>
-              </dd>
-            </dl>
-            <dl class="dllist">
-              <dt><a target="_blank" href="http://www.ebrun.com/20140709/103932.shtml">
-                  <img width="280" height="180" alt="老佛爷的宫廷“爬儿梯” " src="http://imgs.ebrun.com/resources/2014_07/2014_07_09/20140709_14048958547103.jpg">
-                </a></dt>
-              <dd style="bottom: -60px;">
-                <span></span>
-                <div>
-                  <h3>老佛爷的宫廷“爬儿梯” </h3>
-                  <p>当地时间2014年7月8日，Chanel 2014秋冬高级定制系列发布会在巴黎大皇宫华丽开幕，这一季老佛爷带着麻豆们玩了一场华丽丽的“密室逃...
-                  </p>
-                </div>
-              </dd>
-            </dl>
+          <ul id="btnbox" class="bDet_activitylist">
+            <li class="dllist">
+              <dl>
+                <dt><a target="_blank" href="http://www.ebrun.com/20140711/104195.shtml">
+                    <img width="280" height="180" alt=" " src="http://imgs.ebrun.com/resources/2014_07/2014_07_11/20140711_14050434685073.jpg">
+                  </a></dt>
+                <dd style="bottom: -60px;">
+                  <span></span>
+                  <div>
+                    <h3>揭秘郭美美近期生活秘照 </h3>
+                    <p>昨天下午，北京市公安局证实，郭美美因为参与赌球被北京警方于前日抓获,郭美美为何一郑千金来豪赌？觉得赌债背后又隐藏着什么？
+                    </p>
+                  </div>
+                </dd>
+              </dl>
+            </li>
+            <li class="dllist">
+              <dl>
+                <dt><a target="_blank" href="http://www.ebrun.com/20140711/104195.shtml">
+                    <img width="280" height="180" alt="揭秘郭美美近期生活秘照 " src="http://imgs.ebrun.com/resources/2014_07/2014_07_11/20140711_14050434685073.jpg">
+                  </a></dt>
+                <dd style="bottom: -60px;">
+                  <span></span>
+                  <div>
+                    <h3>揭秘郭美美近期生活秘照 </h3>
+                    <p>昨天下午，北京市公安局证实，郭美美因为参与赌球被北京警方于前日抓获,郭美美为何一郑千金来豪赌？觉得赌债背后又隐藏着什么？
+                    </p>
+                  </div>
+                </dd>
+              </dl>
+            </li>
+
+          </ul>
 
 
-            <dl class="dllist">
-              <dt><a target="_blank" href="http://www.ebrun.com/20140711/104195.shtml">
-                  <img width="280" height="180" alt="揭秘郭美美近期生活秘照 " src="http://imgs.ebrun.com/resources/2014_07/2014_07_11/20140711_14050434685073.jpg">
-                </a></dt>
-              <dd style="bottom: -60px;">
-                <span></span>
-                <div>
-                  <h3>揭秘郭美美近期生活秘照 </h3>
-                  <p>昨天下午，北京市公安局证实，郭美美因为参与赌球被北京警方于前日抓获,郭美美为何一郑千金来豪赌？觉得赌债背后又隐藏着什么？
-                  </p>
-                </div>
-              </dd>
-            </dl>
-            <dl class="dllist">
-              <dt><a target="_blank" href="http://www.ebrun.com/20140710/104067.shtml">
-                  <img width="280" height="180" alt="揭秘娱乐圈富家小姐奢侈生活 " src="http://imgs.ebrun.com/resources/2014_07/2014_07_10/20140710_14049568866953.jpg">
-                </a></dt>
-              <dd style="bottom: -60px;">
-                <span></span>
-                <div>
-                  <h3>揭秘娱乐圈富家小姐奢侈生活 </h3>
-                  <p>在台湾，提起孙芸芸的名字，就如同在好莱坞说起名媛希尔顿的名字一样响亮；婚姻美满的她现在育有一子一女，孙芸芸依然是台湾时尚圈...
-                  </p>
-                </div>
-
-              </dd>
-            </dl>
-            <dl class="dllist">
-              <dt><a target="_blank" href="http://www.ebrun.com/20140709/103932.shtml">
-                  <img width="280" height="180" alt="老佛爷的宫廷“爬儿梯” " src="http://imgs.ebrun.com/resources/2014_07/2014_07_09/20140709_14048958547103.jpg">
-                </a></dt>
-              <dd style="bottom: -60px;">
-                <span></span>
-                <div>
-                  <h3>老佛爷的宫廷“爬儿梯” </h3>
-                  <p>当地时间2014年7月8日，Chanel 2014秋冬高级定制系列发布会在巴黎大皇宫华丽开幕，这一季老佛爷带着麻豆们玩了一场华丽丽的“密室逃...
-                  </p>
-                </div>
-
-              </dd>
-            </dl>
-          </div>
         </div>
       </div>
 
@@ -847,6 +808,7 @@
           </li>
           <?php } ?>
         </ul>
+        <div class="clear"></div>
       </div>
 
 
@@ -871,60 +833,4 @@
 
   </div><!--max_width-->
 </div>
-
-<div class="footer clearfix">
-  <div class="max_width clearfix">
-    <div class="all">
-      <h3>全站频道</h3>
-      <ul class="clearfix">
-        <?php for($i=0;$i<18;$i++){ ?>
-        <li><a href="#">品牌聚焦</a></li>
-        <?php } ?>
-      </ul>
-    </div>
-
-    <div class="fthree">
-      <dl>
-        <dt>我要订阅</dt>
-        <dd><a href="#">RSS订阅</a></dd>
-        <dd>RSS订阅</dd>
-        <dd>RSS订阅</dd>
-      </dl>
-      <dl>
-        <dt>我要订阅</dt>
-        <dd>RSS订阅</dd>
-        <dd>RSS订阅</dd>
-        <dd>RSS订阅</dd>
-      </dl>
-      <dl class="concern">
-        <dt>关注我们</dt>
-        <dd>
-          <a href="#">新浪微博</a>
-        </dd>
-        <dd class="qq">
-          <a href="#">新浪微博</a>
-        </dd>
-      </dl>
-    </div>
-
-    <div class="twocode">
-      <div class="imgw clearfix">
-        <img src="">
-      </div>
-      <span>ci086 官方微信</span>
-    </div>
-
-    <div class="fbtns">
-      <a class="btn " href="#">+ 我要投稿</a>
-      <a class="btn co">+ 广告合作</a>
-    </div>
-
-    <div class="footb">
-      Copyright&copy; 2012-2016  ci086.com  版权所有      湘ICP备13003363号
-    </div>
-
-  </div>
-</div>
-
-</body>
-</html>
+<?php include "foot.php"; ?>

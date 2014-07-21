@@ -443,7 +443,8 @@ a:hover {
 }
 .rubycon_ul {
   height: 8px;
-  margin: 233px 0 0 446px;
+  bottom:0;
+  right:15px;
   position: absolute;
   z-index: 9999;
 }
@@ -457,20 +458,16 @@ a:hover {
   overflow: hidden;
   width: 12px;
 }
+.rubycon_ul .active,
 .rubycon_ul .rub_cuta {
   background: url("http://imgs.ebrun.com/images/ebHome_bg02.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
 }
 .inner {
   background-color: #333;
-  height: 260px;
-  overflow: hidden;
-  position: absolute;
-  width: 2100px;
+
 }
 .inner li {
-  float: left;
-  height: 260px;
-  position: absolute;
+  position: relative;
 }
 .inner li img {
   height: 260px;
@@ -487,7 +484,7 @@ a:hover {
   z-index: 999;
 }
 .inner li .span_a {
-  bottom: 0;
+  bottom: 5px;
   color: #fff;
   display: block;
   font: 18px/47px Microsoft YaHei,HELVETICA;
@@ -1153,6 +1150,7 @@ a:hover {
 .tap03_link {
   margin-top: 0px;
 }
+.tap03_link li,
 .tap03_link a {
   background: url("http://imgs.ebrun.com/images/ebHome_bg11.gif") repeat scroll 0 0 rgba(0, 0, 0, 0);
   display: inline-block;
@@ -1160,7 +1158,11 @@ a:hover {
   margin-left: 6px;
   overflow: hidden;
   width: 9px;
+  float:right;
+  margin-top:5px;
+  cursor:pointer;
 }
+.tap03_link li.active,
 .tap03_link .hover {
   background: url("http://imgs.ebrun.com/images/ebHome_bg12.gif") repeat scroll 0 0 rgba(0, 0, 0, 0);
 }
@@ -1171,12 +1173,14 @@ a:hover {
   line-height: 26px;
   position: relative;
   text-align: center;
-  top: -26px;
+  top: -35px;
   width: 250px;
+  font-size: 12px;
 }
 .tap03_con {
   display: inline;
   float: left;
+
 }
 .tap03_m {
   height: 100px;
@@ -1186,6 +1190,7 @@ a:hover {
 }
 .tap03_box {
   position: absolute;
+  width:500px;
 }
 .ebHome_av {
   margin: 20px 0;
@@ -1915,4 +1920,39 @@ a:hover {
       }
     }
   }
+}
+#banner_marqueew{
+  width:560px;
+  height:260px;
+}
+#abtnok{
+  padding:0;
+  .s{
+    display: block;
+    float:left;
+    margin-left:5px;
+    color:#978f88;
+    line-height: 20px;
+  }
+  .c{
+    display: block;
+    float:left;
+    width:20px;
+    height:20px;
+    border:1px solid #d9d9d9;
+    border-radius: 2px;
+    color:#aeaeae;
+    font-family:"宋体";
+    line-height: 20px;
+    text-align: center;
+    cursor:pointer;
+    font-weight:bold;
+    &:hover{
+      color:#2c2c2c;
+    }
+  }
+}
+.main{
+  float:left;
+  width:100%;
 }

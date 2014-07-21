@@ -29,6 +29,108 @@ function setHome(obj,url){
       $(this).removeClass("active");
     });
 
+    //banner pics
+    if(!!$("#banner_marqueew")[0]){
+      new Marquee({
+          MSClassID : "banner_marqueew",
+          ContentID : "banner_marquee",
+          TabID	  : "rubycon_ul",
+          TabEvent  : "onclick",
+          Direction : 2,
+          Step	  : 0.1,
+          Width	  : 560,
+          Height	  : 260,
+          Timer	  : 20,
+          DelayTime : 3000,
+          WaitTime  : 3000,
+          ScrollStep: 560,
+          SwitchType: 0,
+          AutoStart : 1
+        })
+    }
+
+    if(!!$("#martab1w")[0]){
+      new Marquee({
+        MSClassID : "martab1w",
+        ContentID : "martab1",
+        TabID	  : "martab1_c",
+        TabEvent  : "onclick",
+        Direction : 2,
+        Step	  : 0.1,
+        Width	  : 250,
+        Height	  : 100,
+        Timer	  : 20,
+        DelayTime : 5000,
+        WaitTime  : 5000,
+        ScrollStep: 250,
+        SwitchType: 0,
+        AutoStart : 1
+      })
+    }
+
+    if(!!$("#martab2w")[0]){
+      new Marquee({
+        MSClassID : "martab2w",
+        ContentID : "martab2",
+        TabID	  : "martab2_c",
+        TabEvent  : "onclick",
+        Direction : 2,
+        Step	  : 0.1,
+        Width	  : 250,
+        Height	  : 100,
+        Timer	  : 20,
+        DelayTime : 5000,
+        WaitTime  : 5000,
+        ScrollStep: 250,
+        SwitchType: 0,
+        AutoStart : 1
+      })
+    }
+
+    if(!!$("#martab3w")[0]){
+      new Marquee({
+        MSClassID : "martab3w",
+        ContentID : "martab3",
+        TabID	  : "martab3_c",
+        TabEvent  : "onclick",
+        Direction : 2,
+        Step	  : 0.1,
+        Width	  : 250,
+        Height	  : 100,
+        Timer	  : 20,
+        DelayTime : 5000,
+        WaitTime  : 5000,
+        ScrollStep: 250,
+        SwitchType: 0,
+        AutoStart : 1
+      })
+    }
+
+    if(!!$("#btnboxw")[0]){
+      var btnboxw = new Marquee({
+        MSClassID : "btnboxw",
+        ContentID : "btnbox",
+        Direction : 2,
+        Step	  : 0.1,
+        Width	  : 280,
+        Height	  : 180,
+        Timer	  : 20,
+        DelayTime : 5000,
+        WaitTime  : 1000,
+        ScrollStep: 280,
+        SwitchType: 0,
+        AutoStart : 1
+      })
+      $("#abtnok .pre").click(function(e){
+        btnboxw.Run(3)
+        $("#abtnok .num").html(btnboxw.Counter);
+      });
+      $("#abtnok .nxt").click(function(e){
+        btnboxw.Run(2)
+        $("#abtnok .num").html(btnboxw.Counter);
+      });
+    }
+
 
   });
 })(jQuery);
