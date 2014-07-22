@@ -131,6 +131,26 @@ function setHome(obj,url){
       });
     }
 
+    //列表页
+    if(!!$("#list_marqueew")[0]){
+      new Marquee({
+        MSClassID : "list_marqueew",
+        ContentID : "list_marquee",
+        TabID	  : "list_marqueet",
+        TabEvent  : "onclick",
+        Direction : 2,
+        Step	  : 0.5,
+        Width	  : 963,
+        Height	  : 182,
+        Timer	  : 20,
+        DelayTime : 4000,
+        WaitTime  : 3000,
+        ScrollStep: 973,
+        SwitchType: 0,
+        AutoStart : 1
+      })
+    }
+
 
   });
 })(jQuery);

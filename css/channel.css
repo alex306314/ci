@@ -1,0 +1,1550 @@
+@charset "utf-8";
+em {
+  font-style: normal;
+}
+a:hover {
+  text-decoration: none;
+}
+.flash_action {
+  clear: both;
+  overflow: hidden;
+  float: left;
+  width: 960px;
+  height: 0;
+  margin: 0 auto;
+}
+/* channel left*/
+.channel_menu {
+  display: block;
+  clear: both;
+  float: left;
+  width: 100%;
+  padding: 15px 0 0 0;
+}
+.channel_menu li {
+  display: block;
+  float: left;
+  width: auto;
+  font: 12px/1em "瀹嬩綋";
+  color: #dddddd;
+}
+.channel_menu li a {
+  margin: 0 6px;
+  font: 12px/14px "瀹嬩綋";
+  color: #333333;
+}
+.channel_menu li a:hover {
+  text-decoration: none;
+  font: 12px/14px "瀹嬩綋";
+  color: #333333;
+}
+.channltitle {
+  clear: both;
+  float: left;
+  width: 100%;
+  padding: 15px 0 0 0;
+  height: 43px;
+  overflow: hidden;
+}
+.channltitle dl {
+  display: block;
+  float: left;
+  width: 100%;
+  height: 40px;
+  padding-top: 2px;
+  background: url(http://imgs.ebrun.com/images/channltitle_bg.jpg) repeat-x left top;
+}
+.channltitle dl dt {
+  display: block;
+  float: left;
+  padding: 0 10px;
+}
+.channltitle dl dd {
+  display: block;
+  float: left;
+  width: 740px;
+}
+.channltitle dl dd a {
+  display: block;
+  float: left;
+  padding: 0 15px;
+  font: 14px/40px "瀹嬩綋";
+  color: #333333;
+}
+.channltitle dl dd a:hover {
+  text-decoration: none;
+  color: #333333;
+}
+.channltitle dl dd .currenta {
+  background-color: #ffffff;
+  border-left: 1px solid #d9d9d9;
+  border-right: 1px solid #d9d9d9;
+  font-weight: bold;
+}
+.channltitle dl dd .currentfirst {
+  color: #0f4784;
+}
+.channeldl {
+  display: block;
+  overflow: hidden;
+  zoom: 1;
+  width: 620px;
+  margin-top: 10px;
+  padding: 0 10px 20px 10px;
+  border-bottom: 1px dotted #ededed;
+}
+.channeldl h3 a {
+  display: block;
+  width: 100%;
+  font: bold 20px/40px 'Microsoft YaHei,Arial,HELVETICA';
+  color: #000000;
+}
+.channeldl h3 a:hover {
+  text-decoration: none;
+  font: bold 20px/40px 'Microsoft YaHei,Arial,HELVETICA';
+  color: #000000;
+}
+.channeldl span {
+  display: block;
+  padding-bottom: 4px;
+  margin-top: -6px;
+  font: 12px/20px "瀹嬩綋";
+  color: #999999;
+}
+.channeldl dd {
+  display: block;
+  float: left;
+  overflow: hidden;
+  width: 100%;
+  font: 14px/28px "瀹嬩綋";
+  color: #333333;
+}
+.channeldl .shortdd {
+  width: 450px;
+  float: left;
+  overflow: hidden;
+  white-space: pre-wrap;
+  text-overflow: ellipsis;
+}
+.channeldl dt {
+  display: block;
+  float: left;
+  overflow: hidden;
+  width: 150px;
+}
+.channelcurrent {
+  border-top: 4px solid #1e9dcc;
+  background-color: #f5f5f5;
+}
+.channelcurrent h2 {
+  font: normal 20px/40px 'Microsoft YaHei,Arial,HELVETICA';
+  color: #0099cc;
+}
+.channelcurrent h3 a {
+  display: block;
+  margin-bottom: 10px;
+  font: bold 28px/40px 'Microsoft YaHei,Arial,HELVETICA';
+  color: #000000;
+}
+.channelcurrent h3 a:hover {
+  text-decoration: none;
+  font: bold 28px/40px 'Microsoft YaHei,Arial,HELVETICA';
+  color: #000000;
+}
+.channelcurrent dd a {
+  font: 14px/26px 'Microsoft YaHei,Arial,HELVETICA';
+  color: #333333;
+  text-indent: 0;
+}
+.channelcurrent dd font {
+  margin: 0 8px;
+  font: bold 14px/26px '瀹嬩綋';
+  color: #1e9dcc;
+}
+.channeldl h3 a {
+  font: normal 20px/46px Microsoft YaHei, HELVETICA;
+  color: #000;
+  display: inline;
+}
+.channeldl h3 a:hover {
+  color: #fff;
+  background: #0f4784;
+  padding: 0 2px;
+  font: normal 20px/46px Microsoft YaHei, HELVETICA;
+}
+.channelcurrent {
+  padding: 0;
+  background: url(http://imgs.ebrun.com/images/pubTit02_bg01.gif) left center no-repeat #f5f5f5;
+  width: 568px;
+  height: 129px;
+  border: 0 none;
+  padding-left: 72px;
+}
+.channelcurrent h2 {
+  display: none;
+}
+.channelcurrent h3 a {
+  font: bold 26px/56px Microsoft YaHei, HELVETICA;
+  display: inline;
+}
+.channelcurrent h3 a:hover {
+  color: #fff;
+  background: #0f4784;
+  font: bold 26px/56px Microsoft YaHei, HELVETICA;
+  display: inline;
+  width: auto;
+  height: auto;
+}
+.channelcurrent dd a {
+  color: #333;
+  font: normal 14px/26px SimSun, HELVETICA;
+  display: inline-block;
+  padding: 0 2px;
+}
+.channelcurrent dd a:hover {
+  color: #fff;
+  background: #0f4784;
+}
+.channelcurrent dd font {
+  margin: 0;
+  font-style: normal;
+  font-size: 14px;
+  color: #dedede;
+  vertical-align: 1px;
+  padding: 0;
+  font-weight: normal;
+}
+.channeldl .shortdd {
+  font: normal 14px/28px "微软雅黑";
+  color: #5f5f5f;
+  width: auto;
+  float: none;
+  padding-left: 20px;
+}
+.channeldl span {
+  font: normal 12px Microsoft YaHei,HELVETICA;
+  color: #999;
+  margin-top: 5px;
+}
+.channeldl dt {
+  float: left;
+  display: inline-block;
+  width: 169px;
+  height: 136px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.channeldl dt img {
+  width: 160px;
+  height: 127px;
+  margin: 4px 0 0 4px;
+}
+.channeldl .h3b {
+  width: 100%;
+  clear: both;
+  height: 30px;
+}
+.channeldl .h3b span {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+.channeldl .h3b span.tip {
+  color: #328ecb;
+}
+.channeldl .h3b span.icon {
+  margin-left: 5px;
+  width: 12px;
+  height: 10px;
+  background: url("../images/cions.png") no-repeat 0 -70px transparent;
+}
+.channeldl .dlb {
+  padding-top: 10px;
+  clear: both;
+}
+.channeldl .dlb span {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+.channeldl .dlb span.icon {
+  width: 7px;
+  height: 10px;
+  background: url("../images/cions.png") no-repeat 0 -85px transparent;
+}
+/* channel right */
+.channel_rig {
+  width: 280px;
+  overflow: hidden;
+  float: left;
+  display: inline;
+  font: normal 12px "瀹嬩綋";
+  color: #333;
+}
+.channel_rig a {
+  color: #333;
+}
+.channel_rig a:hover {
+  color: #0f4784;
+}
+.chaPub_tit h2 {
+  font: normal 18px/38px Microsoft YaHei;
+  color: #333;
+}
+.cha_sOld {
+  margin: 9px 0 0 5px;
+  line-height: 2em;
+}
+.cha_sOld em {
+  margin: 0 12px 0 0;
+  text-align: right;
+  width: 30px;
+  display: inline-block;
+}
+.cha_sOld a {
+  display: inline-block;
+  background: url(http://imgs.ebrun.com/images/dda_icon.jpg) left center no-repeat;
+  padding-left: 7px;
+}
+.cRes_tit {
+  background: #ededed;
+  height: 48px;
+  border: solid 1px #ededed;
+  margin-top: 17px;
+}
+.cRes_tit p {
+  width: 182px;
+  margin: 0 0 0 8px;
+  font: bold 14px/20px "瀹嬩綋";
+  margin-top: 4px;
+}
+.cRes_list {
+  margin: 10px 0 7px 5px;
+}
+.cRes_list a {
+  display: inline-block;
+  padding-left: 7px;
+  background: url(http://imgs.ebrun.com/images/dda_icon.jpg) left center no-repeat;
+}
+.pub_tit01 {
+  border-bottom: solid 2px #e6e6e6;
+}
+.pub_tit01 h2,
+.pub_tit01 .pub_titnone a {
+  font: normal 18px/2em Microsoft YaHei;
+  position: relative;
+  border-bottom: solid 2px #0f4784;
+  width: 75px;
+  bottom: -2px;
+}
+.pub_link01 {
+  margin-top: 11px;
+  color: #888;
+  font-size: 12px;
+  line-height: 18px;
+  background: url(http://imgs.ebrun.com/images/channer_bg05.gif) right 1px no-repeat;
+  padding-right: 21px;
+  display: inline-block;
+}
+.channel_rig .pub_link01 {
+  color: #888;
+}
+.pub_link01:hover {
+  text-decoration: none;
+}
+.ebDet_serList {
+  margin-bottom: 18px;
+  clear: both;
+  border: solid 1px #d9d9d9;
+  width: 278px;
+}
+.act_nav span {
+  width: 65px;
+  height: 26px;
+  display: block;
+  background: #ededed;
+  border-top: solid 1px #d9d9d9;
+  text-align: center;
+  border-right: solid 1px #d9d9d9;
+  color: #333;
+  cursor: pointer;
+  font: 12px/26px "瀹嬩綋";
+}
+.act_nav span.hover {
+  border: solid 1px #F8F9FB;
+  background: #F8F9FB;
+}
+.ebDet_serList .act_list {
+  margin: 7px 0 0 10px;
+  _margin-left: 0;
+}
+.act_list a {
+  font-size: 12px;
+  color: #333;
+  line-height: 24px;
+}
+.act_list li {
+  background: url(http://imgs.ebrun.com/images/dda_icon.jpg) no-repeat 1px center;
+  padding-left: 10px;
+  _margin: 0;
+  _padding: 0;
+  _background: none;
+}
+.adv_360 {
+  border: solid 1px #d9d9d9;
+  width: 278px;
+  height: 87px;
+}
+.adv_360 a {
+  display: inline-block;
+  overflow: hidden;
+}
+.adv01 a {
+  width: 188px;
+  height: 43px;
+  border-bottom: solid 1px #d9d9d9;
+}
+.adv02 a {
+  width: 188px;
+  height: 43px;
+}
+.adv03 a {
+  width: 89px;
+  height: 87px;
+  border-left: solid 1px #d9d9d9;
+  margin: -87px 0 0 188px;
+}
+.cha_comHot {
+  margin: 16px 0 29px 0;
+}
+.cha_comHot a {
+  display: inline-block;
+  float: left;
+  width: 91px;
+  height: 34px;
+  line-height: 34px;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  text-align: center;
+  background: #ededed;
+  border: solid 1px #fff;
+}
+.cha_comHot a:hover {
+  background: #0f4784;
+  color: #fff;
+  text-decoration: none;
+}
+.cha_seeLink a {
+  width: 22px;
+  height: 21px;
+  display: inline-block;
+  margin-top: 5px;
+}
+.cha_prev {
+  background: url(http://imgs.ebrun.com/images/cha_bg30.gif);
+}
+.cha_next {
+  background: url(http://imgs.ebrun.com/images/cha_bg31.gif);
+  margin-left: 7px;
+}
+.cha_seeSli {
+  position: relative;
+  height: 112px;
+}
+.cha_seeBox {
+  width: 840px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.cha_seeCon {
+  position: relative;
+  width: 280px;
+  height: 112px;
+  float: left;
+  display: inline;
+}
+.cha_seeText {
+  position: absolute;
+  font: normal 14px/19px Microsoft YaHei;
+  color: #fff;
+}
+.cha_seeText span {
+  display: inline-block;
+  height: 19px;
+  width: 26px;
+  vertical-align: middle;
+}
+.text_left {
+  background-position: left center;
+}
+.cha_seeText .text_mid {
+  background-position: center center;
+  width: auto;
+}
+.text_rig {
+  background-position: right center;
+}
+.cha_seeText01 {
+  bottom: 27px;
+  left: 5px;
+}
+.cha_seeText02 {
+  bottom: 5px;
+  left: 5px;
+}
+.cha_seeText01 span {
+  background-image: url(http://imgs.ebrun.com/images/cha_tbg01.png);
+}
+.cha_seeText02 span {
+  background-image: url(http://imgs.ebrun.com/images/cha_tbg02.png);
+}
+.ranking_tit {
+  margin-top: 20px;
+}
+.ranking_tit a {
+  display: inline-block;
+  width: 140px;
+  text-align: center;
+  border-bottom: solid 2px #ccc;
+  font: normal 16px/34px Microsoft YaHei;
+  color: #333;
+}
+.ranking_tit a.hover {
+  font-weight: bold;
+  border-bottom: solid 2px #0f4784;
+  _line-height: 32px;
+}
+.ranking_con {
+  margin: 10px 0 20px 0;
+}
+.ranking_con li {
+  border-bottom: dotted 1px #999;
+}
+.ranking_con li.noBor {
+  border: 0 none;
+}
+.ranking_con a {
+  font: normal 12px/33px "瀹嬩綋";
+  color: #333;
+  line-height: 33px;
+  margin-left: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 250px;
+  display: inline-block;
+}
+.ranking_con em {
+  font: normal 20px Microsoft YaHei;
+  color: #666;
+  font-style: italic;
+  vertical-align: -4px;
+}
+.ranking_con em.f_red {
+  color: #cc0000;
+}
+.mb_20 {
+  margin-bottom: 20px;
+}
+.cha_change {
+  margin-bottom: 20px;
+}
+.cha_change a {
+  display: inline-block;
+  background: #3773b3;
+  color: #fff;
+}
+.cha_change a:hover {
+  color: #fff;
+}
+.change_a01 {
+  width: 125px;
+  height: 90px;
+  border-right: solid 2px #fff;
+  padding: 20px 0 0 10px;
+}
+.cha_f01 {
+  font: normal 38px/40px Microsoft YaHei;
+}
+.cha_f02 {
+  font: normal 14px/18px Microsoft YaHei;
+}
+.cha_f03 {
+  font: normal 22px/20px Microsoft YaHei;
+}
+.change_a02 {
+  width: 130px;
+  height: 45px;
+  margin-bottom: 2px;
+  padding: 10px 0 0 10px;
+  float: left;
+}
+.change_a03 {
+  width: 130px;
+  height: 43px;
+  padding: 10px 0 0 10px;
+  float: left;
+}
+.hot_show {
+  margin: 7px 0 50px 0;
+}
+.hot_show li {
+  width: 135px;
+  float: left;
+  display: inline;
+  margin: 10px 10px 0 0;
+  height: 91px;
+  overflow: hidden;
+}
+.hot_show li.noRig {
+  margin-right: 0;
+}
+.channel_rig .hot_text {
+  display: inline-block;
+  background: url(http://imgs.ebrun.com/images/cha_tbg03.png);
+  width: 135px;
+  height: 24px;
+  color: #fff;
+  text-align: center;
+  line-height: 24px;
+  position: relative;
+  bottom: 24px;
+}
+.channel_rig .hot_text:hover {
+  color: #fff;
+}
+.cha_page {
+  font: normal 14px Microsoft YaHei;
+  color: #666;
+  vertical-align: 4px;
+  width: 47px;
+  display: inline-block;
+  text-align: center;
+}
+/* 娲诲姏姒� */
+.act_tit {
+  padding: 0 20px;
+}
+.act_tit h2 {
+  font-size: 16px;
+  font-family: Microsoft YaHei;
+}
+.act_tit h2 span {
+  width: 40px;
+  height: 18px;
+  line-height: 18px;
+  color: #fff;
+  background: #5f84ad;
+  font-size: 14px;
+  display: inline-block;
+  text-align: center;
+  margin-left: 3px;
+}
+.act_con {
+  padding-top: 6px;
+  border-bottom: solid 1px #e6e6e6;
+  margin: 0 20px;
+  padding-bottom: 12px;
+  zoom: 1;
+}
+.act_con dl {
+  clear: both;
+  overflow: hidden;
+  margin: 10px 0 0 0;
+  padding-bottom: 9px;
+  border-bottom: dotted 1px #999;
+  zoom: 1;
+}
+.act_con dl.nobor {
+  border: 0 none;
+}
+.act_con dt {
+  float: left;
+  color: #666;
+}
+.act_con dt.act_red {
+  color: #cc0000;
+}
+.act_con dd {
+  float: left;
+}
+.act_num {
+  width: 53px;
+  font: normal 20px/1em Microsoft YaHei;
+  font-style: italic;
+}
+.act_name {
+  width: 89px;
+}
+.act_value {
+  width: 84px;
+}
+.act_icon em {
+  width: 11px;
+  height: 13px;
+  display: inline-block;
+}
+.act_icon em.up {
+  background: url(http://imgs.ebrun.com/images/s_bg07.gif);
+}
+.act_icon em.mid {
+  background: url(http://imgs.ebrun.com/images/s_bg05.gif);
+}
+.act_icon em.down {
+  background: url(http://imgs.ebrun.com/images/s_bg06.gif);
+}
+.act_tit h2 {
+  font: normal 18px/2em Microsoft YaHei;
+  border-bottom: solid 2px #0f4784;
+  width: 90px;
+  bottom: -2px;
+  position: relative;
+}
+.act_tit {
+  padding: 0;
+  margin: 0 20px;
+  border-bottom: solid 2px #e6e6e6;
+}
+.act_tit h2 span {
+  position: absolute;
+  right: -40px;
+  top: 10px;
+}
+.act_tit .pub_link01 {
+  margin-top: 10px;
+}
+#ebj_3,
+#ebj_4,
+#ebj_5 {
+  margin: 21px 0 0 0px;
+}
+.cha_seeSli {
+  width: 280px;
+  overflow: hidden;
+}
+/* 20130717 Microsoft YaHei,Arial,HELVETICAMicrosoft YaHei,Arial,HELVETICA */
+.chaPub_tit {
+  margin-top: 9px;
+}
+.cRes_tit p a {
+  width: 182px;
+  margin: 4px 0 0 8px;
+  font: bold 14px/20px SimSun, HELVETICA;
+}
+.cRes_tit p a {
+  margin: 4px 0 0 0;
+}
+.cRes_list li {
+  font: normal 12px/2em SimSun, HELVETICA;
+}
+.cha_seeText02 {
+  bottom: 10px;
+}
+.cha_seeText01 {
+  bottom: 32px;
+}
+.ebDet_serList {
+  margin-top: 25px;
+}
+.pub_tit01 {
+  margin-top: 4px;
+}
+.cha_comHot {
+  margin-bottom: 0;
+}
+.act_tit {
+  margin: 0;
+  margin-top: 20px;
+}
+.act_con {
+  margin: 0;
+  border: 0 none;
+}
+.cha_sOld em {
+  margin-right: 5px;
+}
+.cha_sOld a {
+  padding-left: 8px;
+}
+/* Microsoft YaHei,Arial,HELVETICA娲诲姩&Microsoft YaHei,Arial,HELVETICA 鍏叡  */
+.ebDet_activity {
+  width: 280px;
+  padding: 20px 0 14px 0;
+  clear: both;
+}
+.ebDet_slideTit h3 {
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+}
+.ebDet_slideTit .slideTit_link {
+  color: #888;
+  background: url(http://imgs.ebrun.com/images/icon.gif) right -216px no-repeat;
+  padding-right: 26px;
+}
+.ebDet_slideTit .slideTit_link:hover {
+  text-decoration: none;
+}
+/*杩炴帴*/
+.friend {
+  float: left;
+  width: 100%;
+  margin-top: 40px;
+}
+.friend_link {
+  float: left;
+  width: 660px;
+}
+.friend_link dl {
+  float: left;
+  width: 660px;
+  padding-bottom: 10px;
+}
+.friend_link dd {
+  width: 16%;
+  font: 12px/20px "瀹嬩綋";
+  margin-right: 5px!important;
+  margin-right: 2px;
+}
+.find {
+  overflow: hidden;
+  float: left;
+  width: 265px;
+  margin-left: 35px!important;
+}
+.find dl {
+  overflow: hidden;
+  float: left;
+  width: 116px;
+}
+.find .find_margin {
+  padding-right: 10px;
+  width: 139px;
+}
+.find dl dt {
+  height: 27px;
+  font: 14px/30px "瀹嬩綋";
+  color: #666666;
+  margin-top: 13px;
+}
+.find dl dd {
+  background: url(http://imgs.ebrun.com/images/copy_bj.jpg) no-repeat left center;
+}
+.find dl dd a {
+  display: block;
+  width: 106px;
+  height: 27px;
+  padding-left: 10px;
+  font: 16px/27px "榛戜綋";
+  color: #FFF;
+}
+.find dl dd a:hover {
+  color: #FFF;
+  text-decoration: none;
+}
+/*Microsoft YaHei,Arial,HELVETICA*/
+.div_box {
+  float: left;
+}
+.div_box dl {
+  float: left;
+  padding: 11px 0 15px 0;
+}
+.div_box dl dd {
+  float: left;
+  width: 105px;
+  background: url(http://imgs.ebrun.com/images/dda_icon.jpg) no-repeat 1px center;
+}
+.div_box dl dd a {
+  padding-left: 15px;
+  font: 12px/21px "瀹嬩綋";
+  color: #333;
+}
+.div_box dl dd a:hover {
+  color: #0099cc;
+}
+/*閫夐」鍗�*/
+.tab {
+  float: left;
+  overflow: hidden;
+  width: 280px;
+  margin-top: 15px;
+  border-bottom: 1px solid #b2c7ce;
+}
+.tab_ul {
+  height: 27px;
+  width: 100%;
+  background: url(http://imgs.ebrun.com/images/tab_bj.jpg) repeat-x left bottom #ffffff;
+}
+.tab_ul li {
+  display: block;
+  overflow: hidden;
+  float: left;
+  width: 139px;
+  border-left: 1px solid #FFF;
+  border-right: 1px solid #FFF;
+  height: 23px;
+  margin-top: 3px;
+  text-align: center;
+}
+.tab_ul li a {
+  display: block;
+  font: 14px/14px "瀹嬩綋";
+  font-weight: bold;
+  color: #666666;
+  padding-top: 6px;
+}
+.tab_ul li a:hover {
+  color: #0099cc;
+}
+.tab_ul .current {
+  height: 23px;
+  width: 139px;
+  border-top: 4px solid #1e9dcc;
+  border-left: none;
+  border-right: none;
+  background: url(http://imgs.ebrun.com/images/current_bj.jpg) no-repeat left bottom;
+  margin-top: 0;
+  font-weight: bold;
+}
+.tab_ul .culi {
+  width: 100px;
+}
+.tab_ul .culib {
+  width: 75px;
+}
+.tab_ul .current a {
+  color: #333;
+}
+.tab_ul .current a:hover {
+  color: #333;
+  text-decoration: none;
+}
+.friend_link .tab_bul {
+  height: 27px;
+  width: 100%;
+  background: url(http://imgs.ebrun.com/images/tab_bj1.jpg) repeat-x left bottom;
+}
+.friend_link .tab_bul .current {
+  height: 23px;
+  border-left: none;
+  border-right: none;
+  border-top: 4px solid #1e9dcc;
+  background: url(http://imgs.ebrun.com/images/curnet_bj.jpg) no-repeat left bottom;
+  margin-top: 0;
+  font-weight: bold;
+}
+.friend_link .select_clicktab {
+  overflow: hidden;
+  height: 27px;
+  width: 100%;
+  background: url(http://imgs.ebrun.com/images/tab_bj1.jpg) repeat-x left bottom;
+}
+.friend_link .select_clicktab li {
+  display: block;
+  float: left;
+  overflow: hidden;
+  width: 70px;
+  border-left: 1px solid #FFF;
+  border-right: 1px solid #FFF;
+  height: 23px;
+  margin-top: 3px;
+  text-align: center;
+}
+.friend_link .select_clicktab li a {
+  display: block;
+  font: 14px/14px "瀹嬩綋";
+  font-weight: bold;
+  color: #666666;
+  padding-top: 6px;
+}
+.friend_link .select_clicktab .current {
+  height: 23px;
+  margin-top: 0;
+  font-weight: bold;
+  border-top: 4px solid #1e9dcc;
+  border-left: 1px solid #1e9dcc;
+  border-right: 1px solid #1e9dcc;
+  background: #FFF;
+}
+.tab_ul .lispan {
+  display: block;
+  overflow: hidden;
+  float: left;
+  width: 92px;
+  border-left: 1px solid #FFF;
+  border-right: 1px solid #FFF;
+  height: 23px;
+  margin-top: 3px;
+  text-align: center;
+  background-color: #FFF;
+  font: 14px/24px "瀹嬩綋";
+  font-weight: bold;
+  color: #333;
+}
+.div_w {
+  float: left;
+  overflow: hidden;
+  width: 278px;
+  height: 223px;
+  border-left: 1px solid #b2c7ce;
+  border-right: 1px solid #b2c7ce;
+}
+.div_w .fw_dl {
+  padding-top: 2px;
+}
+.div_w .fw_dl dd {
+  float: left;
+  width: 230px;
+  height: 20px;
+  margin: 0;
+  padding-left: 8px;
+  background: url(http://imgs.ebrun.com/images/dda_icon.jpg) no-repeat 1px center;
+}
+.div_w .fw_dl dd a {
+  display: inline;
+  height: 20px;
+  font: 12px/20px "瀹嬩綋";
+  padding-left: 5px;
+}
+a.bfd_img_logo {
+  float: right;
+  display: block;
+  width: 101px;
+  height: 13px;
+  margin: 5px 3px 0 0;
+  background: url(http://static.baifendian.com/themes/logo/bfd_logo_ch.png) no-repeat 0 0;
+  _background: url(http://static.baifendian.com/themes/logo/bfd_logo_ch.gif) no-repeat 0 0;
+  overflow: hidden;
+  font: 12px/20px "瀹嬩綋";
+}
+a.bfd_img_logo:hover {
+  background: url(http://static.baifendian.com/themes/logo/bfd_logo_ch.png) no-repeat 0 -14px;
+  _background: url(http://static.baifendian.com/themes/logo/bfd_logo_ch.gif) no-repeat 0 -14px;
+}
+/* 鍒嗛〉 */
+.pub_page01 {
+  text-align: left;
+  padding: 70px 0;
+}
+.pub_page01 a {
+  padding: 0 10px;
+  height: 32px;
+  display: inline-block;
+  background-color: #bebebe;
+  border: solid 1px #a8a8a8;
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+  font-weight: bold;
+  line-height: 32px;
+  margin: 0 3px;
+}
+.pub_page01 span {
+  padding: 0 10px;
+  height: 32px;
+  display: inline-block;
+  background-color: #0f4784;
+  border: solid 1px #0a315a;
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+  font-weight: bold;
+  line-height: 32px;
+  margin: 0 3px;
+}
+.pub_page01 a:hover,
+.pub_page01 a.hover {
+  text-decoration: none;
+  background-color: #0f4784;
+  border: solid 1px #0a315a;
+  color: #fff;
+}
+.ebdet_prev {
+  background: url(http://imgs.ebrun.com/images/icon.gif) 0 -82px no-repeat;
+}
+.ebdet_prev:hover {
+  background: url(http://imgs.ebrun.com/images/icon.gif) -1px -114px no-repeat;
+}
+.ebdet_next {
+  background: url(http://imgs.ebrun.com/images/icon.gif) 0 -48px no-repeat;
+}
+.ebdet_next:hover {
+  background: url(http://imgs.ebrun.com/images/icon.gif) 0 -19px no-repeat;
+}
+.pub_page01 .ebdet_sl:hover,
+.pub_page01 .ebdet_sl {
+  cursor: auto;
+  background: url(http://imgs.ebrun.com/images/icon.gif) 0 -148px no-repeat #ffffff;
+  border: solid 1px #fff;
+}
+/* Microsoft YaHei,Arial,HELVETICA娲诲姩 */
+.activity_info {
+  margin-top: 20px;
+}
+.activity_info a {
+  color: #333;
+}
+.activity_info a:hover {
+  text-decoration: none;
+}
+.activity_text {
+  width: 150px;
+  height: 70px;
+  background: #ededed;
+  padding: 10px 0 0 10px;
+}
+.activity_text p {
+  color: #333;
+  font-size: 14px;
+  width: 134px;
+  font-weight: bold;
+}
+.activity_text span {
+  background: #999;
+  height: 16px;
+  line-height: 16px;
+  color: #fff;
+  padding: 0 6px;
+  display: inline-block;
+  margin: 7px 8px 0 0;
+}
+.act_list {
+  margin-top: 15px;
+}
+.act_list li {
+  background: url(http://imgs.ebrun.com/images/dda_icon.jpg) no-repeat 1px center;
+  padding-left: 10px;
+}
+.act_list a {
+  font-size: 12px;
+  color: #333;
+  line-height: 24px;
+}
+.act_list a:hover {
+  color: #0f4784;
+  text-decoration: none;
+}
+.warp_left {
+  width: 640px;
+  overflow: hidden;
+  margin-right: 40px;
+  float: left;
+}
+/* Microsoft YaHei,Arial,HELVETICA */
+.subject {
+  width: 300px;
+  background: none;
+  border: 0 none;
+  margin: 0;
+  padding-bottom: 8px;
+}
+.subject .scroll_h3 span {
+  font-size: 16px;
+  font-family: Microsoft YaHei,Arial,HELVETICA;
+}
+.subject .scroll_h3 {
+  background: none;
+  margin-top: 14px;
+  color: #333;
+  font-weight: bold;
+  font-size: 16px;
+}
+.subject .fw_dl dd {
+  height: 24px;
+  line-height: 24px;
+  width: 266px;
+}
+.subject .fw_dl dd a {
+  color: #333;
+  height: 24px;
+  line-height: 24px;
+}
+.subject .fw_dl dd a:hover {
+  color: #0f4784;
+  text-decoration: none;
+}
+.ebDet_rd {
+  background: url(http://imgs.ebrun.com/images/bg.gif) -154px -53px no-repeat;
+  width: 34px;
+  height: 10px;
+  float: left;
+  display: inline;
+  margin: 6px 0 0 10px;
+  overflow: hidden;
+}
+.ebDet_rd p {
+  background: url(http://imgs.ebrun.com/images/bg.gif) -154px -43px no-repeat;
+  width: 40%;
+  height: 10px;
+}
+.subject dl {
+  padding: 10px 0 0 0;
+}
+.subject .fw_dl dd {
+  padding-left: 8px;
+  background: url(http://imgs.ebrun.com/images/dda_icon.jpg) no-repeat 1px center;
+  overflow: hidden;
+}
+/* Microsoft YaHei,Arial,HELVETICA */
+.pub_rigFloat {
+  position: fixed;
+  _position: absolute;
+}
+.detail_top {
+  width: 60px;
+  height: 60px;
+  background: url(http://imgs.ebrun.com/images/slogin_bg04.gif);
+  cursor: pointer;
+  margin-top: 70px;
+}
+.pub_select {
+  margin-top: -70px;
+}
+.pub_select div {
+  float: left;
+}
+.detail_select {
+  width: 60px;
+  height: 60px;
+  background: url(http://imgs.ebrun.com/images/select-bg.jpg);
+  cursor: pointer;
+}
+.selectDiv {
+  width: 1px;
+  overflow: hidden;
+  height: 60px;
+  background-color: #0f4784;
+  position: relative;
+  -webkit-transition: width .5s;
+  -moz-transition: width .5s;
+  -ms-transition: width .5s;
+  -o-transition: width .5s;
+  transition: width .5s;
+}
+.details {
+  width: 60px;
+  height: 60px;
+  background: url(http://imgs.ebrun.com/images/201406/bg_jy.jpg);
+  cursor: pointer;
+}
+.J_active .selectDiv {
+  width: 207px;
+}
+.selectDiv span {
+  display: block;
+  margin-top: 18px;
+  border: 1px solid #144b86;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.selectDiv input {
+  border: none;
+}
+.selectDiv .textinput {
+  height: 24px;
+  width: 125px;
+  padding: 0 5px;
+  background-color: #FFF;
+  font: 12px/24px '瀹嬩綋';
+}
+.selectDiv .btninput {
+  border-left: 1px solid #b8b8b8;
+  height: 24px;
+  width: 50px;
+  background-color: #FFF;
+  font: 12px/24px '瀹嬩綋';
+  color: #333;
+  cursor: pointer;
+}
+.selectDiv a {
+  position: absolute;
+  right: 12px;
+  top: 5px;
+}
+/* 20131023-鎬濊矾瀵规帴 */
+.act_hide {
+  float: none;
+  clear: both;
+  margin: 5px 0 0 0;
+  padding-left: 0px;
+}
+.act_tit {
+  padding: 0;
+  border-bottom: solid 2px #e6e6e6;
+}
+.act_tit h2 {
+  font: normal 18px/2em Microsoft YaHei;
+  border-bottom: solid 2px #0f4784;
+  width: 90px;
+  bottom: -2px;
+  position: relative;
+}
+.act_tit h2 span {
+  position: absolute;
+  width: 40px;
+  height: 18px;
+  line-height: 18px;
+  color: #fff;
+  background: #5f84ad;
+  font-size: 14px;
+  display: inline-block;
+  text-align: center;
+  margin-left: 3px;
+  right: -40px;
+  top: 10px;
+}
+.act_con {
+  padding-top: 6px;
+  padding-bottom: 12px;
+  zoom: 1;
+}
+.act_con dl {
+  clear: both;
+  overflow: hidden;
+  margin: 10px 0 0 0;
+  padding-bottom: 9px;
+  border-bottom: dotted 1px #999;
+  zoom: 1;
+}
+.act_con dl.nobor {
+  border: 0 none;
+}
+.act_con dt {
+  float: left;
+  color: #666;
+}
+.act_con dt.act_red {
+  color: #cc0000;
+}
+.act_con dd {
+  float: left;
+}
+.act_num {
+  width: 60px;
+  font: normal 20px/1em Microsoft YaHei;
+  font-style: italic;
+}
+.cha_rig .act_name {
+  width: 153px;
+  height: 20px;
+  overflow: hidden;
+  margin-right: 20px;
+  font-size: 14px;
+}
+.cha_rig .act_name a {
+  font-size: 14px;
+}
+.act_value {
+  width: 84px;
+}
+.act_icon em {
+  width: 11px;
+  height: 13px;
+  display: inline-block;
+}
+.act_icon em.up {
+  background: url(http://imgs.ebrun.com/images/s_bg07.gif);
+}
+.act_icon em.mid {
+  background: url(http://imgs.ebrun.com/images/s_bg05.gif);
+}
+.act_icon em.down {
+  background: url(http://imgs.ebrun.com/images/s_bg06.gif);
+}
+.pub_link01 {
+  margin-top: 11px;
+  color: #888;
+  font-size: 12px;
+  line-height: 18px;
+  background: url(http://imgs.ebrun.com/images/channer_bg05.gif) right 1px no-repeat;
+  padding-right: 21px;
+  display: inline-block;
+}
+.cha_rig a:hover {
+  color: #0f4784;
+  text-decoration: none;
+}
+.cha_rig a {
+  color: #333;
+}
+.cha_rig .pub_link01 {
+  color: #888;
+}
+.act_text {
+  margin-left: 60px;
+  overflow: hidden;
+  zoom: 1;
+  margin-top: -2px;
+  height: 52px;
+}
+.act_text a {
+  color: #666;
+  font: normal 12px/18px SimSun;
+}
+/*++++++++++++++++++++++++++++++鍙嬫儏閾炬帴++++++++++++++++++++++++++++++*/
+#warp .ebHome_down {
+  clear: both;
+  float: left;
+  width: 100%;
+  margin: 0 0 35px 0;
+}
+#warp .ebHome_downLink {
+  width: 660px;
+  overflow: hidden;
+  margin-top: 26px;
+}
+#warp .downLink_tit,
+.meeting_tit {
+  position: relative;
+  border-bottom: solid 2px #ccc;
+  height: 34px;
+}
+#warp .downLink_con {
+  overflow: hidden;
+  zoom: 1;
+}
+#warp .downLink_tit em {
+  position: absolute;
+  background: #0f4784;
+  width: 75px;
+  top: 34px;
+  height: 2px;
+  overflow: hidden;
+}
+#warp .downLink_tit a,
+.meeting_tit {
+  font: normal 18px/34px Microsoft YaHei, HELVETICA;
+  margin-right: 10px;
+  cursor: pointer;
+  color: #333;
+}
+.downLink_tit a:hover {
+  color: #333;
+}
+.downLink_con li {
+  float: left;
+  display: inline;
+  margin-top: 20px;
+  width: 94px;
+}
+.downLink_con li a {
+  color: #535353;
+}
+/*search*/
+.pub_tit01 .pub_titnone,
+.pub_tit01 .pub_titnone a {
+  border: none;
+}
+.pub_titnone {
+  border: none;
+}
+.pub_tit01 span {
+  display: inline-block;
+  height: 22px;
+  float: right;
+  margin-top: 8px;
+  width: 192px;
+  border: 1px solid #0f4784;
+}
+.pub_tit01 span input {
+  float: left;
+  background: none;
+  border: none;
+}
+.pub_tit01 span .text_input {
+  width: 154px;
+  height: 22px;
+  padding: 0 5px;
+  font: 12px/22px '寰蒋闆呴粦';
+  color: #999;
+}
+.pub_tit01 span .text_btn {
+  width: 28px;
+  height: 22px;
+  background: url(http://imgs.ebrun.com/images/select-bg01.jpg) no-repeat left top;
+  cursor: pointer;
+}
+.list_title {
+  font-size: 24px;
+  color: black;
+  line-height: 40px;
+}
+.litidt {
+  line-height: 40px;
+}
+.list_marquee {
+  margin-top: 15px;
+  clear: both;
+}
+.list_marquee .w {
+  width: 963px;
+  height: 182px;
+  overflow: hidden;
+}
+#list_marquee {
+  display: block;
+  width: 5000px;
+  height: 182px;
+}
+#list_marquee li {
+  display: block;
+  float: left;
+  width: 243px;
+  height: 182px;
+}
+#list_marquee li a {
+  display: block;
+  width: 235px;
+  height: 182px;
+  position: relative;
+}
+#list_marquee li img {
+  width: 236px;
+  height: 182px;
+}
+#list_marquee li span {
+  display: block;
+  position: absolute;
+  width: 235px;
+  bottom: 0;
+  left: 0;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  font-size: 14px;
+  color: white;
+}
+#list_marquee li .bgs {
+  background-color: black;
+  opacity: 0.5;
+}
+#list_marquee li .txt {
+  margin-left: 10px;
+  overflow: hidden;
+  width: 205px;
+}
+#list_marqueet {
+  display: block;
+  margin: 0 auto;
+  clear: both;
+  text-align: center;
+  margin-top: 10px;
+}
+#list_marqueet li {
+  display: inline-block;
+  margin: 0px 6px 0 6px;
+  width: 6px;
+  height: 6px;
+  border-radius: 6px;
+  background-color: #ddd;
+  cursor: pointer;
+}
+#list_marqueet li.active {
+  background-color: #ce8129;
+}
+.hr {
+  border-bottom: 1px solid #ddd;
+  height: 20px;
+  margin-bottom: 5px;
+}

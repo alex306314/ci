@@ -18,7 +18,7 @@
 
       <ul class="bl">
         <li>
-          <a class="b" href="#">品牌聚焦</a>
+          <a class="b" href="list.php">品牌聚焦</a>
           <a>房产</a>
           <a>通信</a>
           <a>互联网</a>

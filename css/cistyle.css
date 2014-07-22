@@ -437,7 +437,7 @@ a:hover {
 }
 .rubycon_ul {
   height: 8px;
-  bottom: 0;
+  bottom: 15px;
   right: 15px;
   position: absolute;
   z-index: 9999;
