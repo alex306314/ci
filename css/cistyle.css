@@ -1928,3 +1928,357 @@ a:hover {
   float: left;
   width: 100%;
 }
+.prenxt {
+  margin: 40px 0 30px 0;
+  clear: both;
+  height: 20px;
+}
+.prenxt a {
+  color: #168aca;
+}
+.prenxt .prea {
+  display: block;
+  float: left;
+}
+.prenxt .nxta {
+  display: block;
+  float: right;
+}
+.prenxt span {
+  color: #524545;
+  margin-right: 10px;
+}
+.samplead {
+  margin-top: 30px;
+}
+.book .banner {
+  background: url("../images/bookbanner.jpg") no-repeat;
+  width: 960px;
+  height: 239px;
+  margin-top: 19px;
+  margin-bottom: 30px;
+  position: relative;
+}
+.book h1.heading,
+.dy {
+  color: #fff;
+  padding: 15px;
+  font-size: 48px;
+  font-weight: bold;
+}
+.book .span2 {
+  font-size: 12px;
+  margin-bottom: 15px;
+  overflow: hidden;
+  padding: 1px;
+  float: left;
+  margin-left: 15px;
+  min-height: 1px;
+  display: block;
+  width: 140px;
+}
+.book .span2:hover {
+  background: #f4f3f3;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+.book .span2 .caption {
+  padding: 0 10px;
+}
+.book .span2 h3 {
+  font-size: 14px;
+  color: #333;
+  line-height: 1.4;
+  height: 40px;
+  display: block;
+  margin: 10px 0;
+}
+.book .span2 img {
+  width: 105px;
+  height: 145px;
+  margin: 10px 12px 0 12px;
+  display: block;
+}
+.book .span2 p {
+  font-size: 12px;
+  font-weight: normal;
+  color: #999;
+  height: 35px;
+  display: block;
+}
+.book .popover,
+.book .btn {
+  font-size: 12px;
+}
+.book .popover {
+  color: #999;
+  line-height: 2;
+}
+.rssbook {
+  padding: 10px 15px;
+  overflow: hidden;
+  zoom: 1;
+  background: #f6f6f6;
+  border: 3px solid #ddd;
+}
+.light {
+  background: #f6f6f6;
+  border: 3px solid #ddd;
+}
+.dark {
+  background: #aaa;
+  border: 3px solid #666;
+}
+.mailInput {
+  margin-top: 5px;
+}
+.rssbook .info {
+  color: #666;
+  font-size: 12px;
+}
+.light .info {
+  color: #666;
+}
+.dark .info {
+  color: #fff;
+}
+.rssbutton {
+  float: left;
+  border: 1px solid #698ab4;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+.dark .rssbutton {
+  border: 1px solid #585858;
+}
+.rssbutton input {
+  background: #77a0d1;
+  border: 1px solid #88b3e6;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-weight: bold;
+  width: 90px;
+  display: block;
+  height: 22px;
+  line-height: 22px;
+  *line-height: 19px;
+  text-align: center;
+}
+.dark .rssbutton input {
+  background: #676767;
+  border: 1px solid #777;
+}
+.rssbutton input:hover {
+  background: #86b4eb;
+  text-decoration: none;
+}
+.dark .rssbutton input:hover {
+  background: #797979;
+  border: 1px solid #939393;
+}
+input.rsstxt {
+  width: 100%;
+  height: 20px;
+  font-size: 14px;
+  padding: 2px 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border: 1px solid #ccc;
+  border-color: #7c7c7c #c3c3c3 #c3c3c3 #9a9a9a;
+  margin-bottom: 5px;
+}
+.dark input.rsstxt {
+  background: #eee;
+}
+.sidebox .hd .heading {
+  font-family: "Microsoft YaHei", "SimHei ";
+  font-size: 14px;
+  line-height: 30px;
+  margin: 0;
+  padding: 0;
+}
+.sidebox .hd {
+  background: none repeat scroll 0 0 #9cb12f;
+  color: #fff;
+  font-size: 14px;
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 5px;
+  padding-left: 10px;
+}
+.sidebox:after,
+.topsection:after {
+  content: ".";
+  display: block;
+  font-size: 0px;
+  line-height: 0px;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.well {
+  padding: 5px 15px;
+}
+.well h2 {
+  font-size: 20px;
+  line-height: normal;
+}
+.f-12 {
+  font-size: 12px;
+}
+.txt-shadow {
+  text-shadow: 0 1px 0 #ffffff;
+}
+.c-gary {
+  color: #bdc3c7;
+}
+.span4 {
+  width: 250px;
+}
+.span8 {
+  width: 690px;
+}
+.icons {
+  background: url(../images/bg1.png) no-repeat;
+  position: relative;
+  display: inline-block;
+}
+.see-icon {
+  background-position: 0 -20px;
+  width: 14px;
+  height: 8px;
+  margin-right: 5px;
+}
+.tag-icon {
+  background-position: -20px 0;
+  width: 7px;
+  height: 10px;
+  margin-right: 5px;
+  top: 1px;
+}
+.th-list-icon {
+  background-position: -53px 0;
+  width: 12px;
+  height: 10px;
+  margin-right: 5px;
+  top: 1px;
+}
+.ios-icon {
+  background-position: 0 -70px;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  line-height: 200px;
+}
+.andriod-icon {
+  background-position: -52px -70px;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  line-height: 200px;
+}
+.email-icon {
+  background-position: -36px -36px;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  top: 3px;
+  *top: 0;
+  margin-right: 3px;
+}
+.rss-icon {
+  background-position: -18px -36px;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  top: 3px;
+  *top: 0;
+  margin-right: 3px;
+}
+.sina-icon {
+  background-position: 0 -36px;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  top: 3px;
+  *top: 0;
+  margin-right: 3px;
+}
+.new-icon {
+  padding: 10px;
+  margin-right: 5px;
+  display: inline-block;
+  background: url(../images/bg1.png) -56px -36px no-repeat;
+  vertical-align: -4px;
+}
+.sideShare li {
+  width: 250px;
+  float: left;
+  padding-top: 5px;
+  margin-bottom: 10px;
+  position: relative;
+}
+.sideShare .title {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: normal;
+  left: 38px;
+  top: 10px;
+  position: absolute;
+  font-family: "Microsoft YaHei", "SimHei ";
+}
+.sideShare .count {
+  font-size: 12px;
+  color: #999;
+  line-height: normal;
+  position: absolute;
+  left: 38px;
+  top: 25px;
+}
+.sideShare li span {
+  clear: both;
+  display: block;
+}
+.sina-share,
+.tencent-share,
+.rss-share,
+.email-share {
+  float: left;
+  overflow: hidden;
+  width: 32px;
+  height: 32px;
+  position: relative;
+  top: 5px;
+}
+.sina-share {
+  background-position: -89px 0;
+}
+.tencent-share {
+  background-position: -89px -40px;
+}
+.rss-share {
+  background-position: -89px -80px;
+}
+.email-share {
+  background-position: -89px -120px;
+}
+.dy {
+  width: 100px;
+  float: left;
+}
+p {
+  color: #fff;
+  line-height: 24px;
+  font-size: 14px;
+  padding: 15px;
+}
+.book .a2 {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
